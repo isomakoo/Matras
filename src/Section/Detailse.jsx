@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import { products } from "./products";
 import "./Details.css";
@@ -23,7 +23,9 @@ function Detail() {
   const filteredProducts = products.filter(
     (item) => item.category === product.category && item.id !== product.id
   );
-
+  useEffect(() => {
+    document.title = "Matras Product Detailse"; // Sahifa sarlavhasini o'zgartirish
+  }, []);
   return (
     <div className="details-page">
       <Header />
