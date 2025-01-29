@@ -39,7 +39,13 @@
     height: 161px;
     
 }
-.footer-link{
+.footer-link-nav{
+position: relative;
+right: 40px;
+}
+.footer-link, .footer-link-nav{
+  width: 300px !important;
+  display: block;
     font-family: Battambang;
     font-size: 20px;
     font-weight: 400;
@@ -51,11 +57,18 @@
     align-items: center; 
     text-decoration: none; 
 }
-.footer-img{
+.footer-linkeses{
+  width: 320px !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+/* .footer-img{
 position: relative;
 top: -10px;
 left: 30px; 
-}
+} */
 .footer-images{
     position: relative;
     top: 10px;

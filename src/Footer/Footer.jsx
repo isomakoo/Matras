@@ -44,9 +44,9 @@ function Footer() {
             </li>
           </ul>
           <div className="footer-linkes">
-                    <span className="footer-linkeses">
-                      <a href="tel:+998 78 333 79 79" className="footer-link">+998 78 333 79 79</a> <br />
-                      <a href="tel:+998 78 333 79 79" className="footer-link">+998 78 333 79 79</a>
+                    <span className="footer-linkeses"><nav>
+                      <a href="tel:+998 78 333 79 79" className="footer-link-nav">+998 78 333 79 79</a> <br />
+                      <a href="tel:+998 78 333 79 79" className="footer-link-nav">+998 78 333 79 79</a> </nav>
                       <img src={phone} alt="" className="footer-img"/>
                     </span> <br />
                     <a href="https://t.me/kurbonov_me" className="footer-link">westmatres <img src={instagram} alt="instagram"  className='footer-images' /></a> <br />
