@@ -1,0 +1,88 @@
+.sidebar{
+width: 100%;
+margin: 0 auto;
+padding: 0;
+height: auto;
+display: block;
+}
+.sidebar-container{
+background-image: url('../assets/matras6.png');
+background-size: cover; /* Tasvirni konteynerga moslash */
+  background-position: center; /* Tasvirni markazda joylash */
+  background-repeat: no-repeat; /* Takrorlanmasligi uchun */
+height: 500px;
+margin-top: 150px;
+}
+.sidebar-text{
+    top: 150px;
+    width: 1230px;
+    height: 232px;
+    gap: 0px;
+    opacity: 0px;
+margin: 0 auto;
+font-family: Battambang;
+font-size: 32px;
+font-weight: 300;
+line-height: 57.81px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+position: relative;
+color: rgba(255, 255, 255, 1);
+box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.5);
+
+}
+.sidebar-navbar{
+    width: 1200px;
+    height: 600px;
+    top: 5189px;
+    left: 120px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   list-style: none;
+   align-items: center;
+    
+}
+.sidebar-navbar-list{
+text-align: center;
+margin-top: 150px;
+width: 282px;
+height: 409px;
+padding: 12px 0px 0px 0px;
+gap: 24px;
+opacity: 0px;
+
+}
+.sidebar-title{
+    font-family: Italianno;
+    font-size: 96px;
+    font-weight: 400;
+    line-height: 120px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin: 0 auto;
+    margin-top: 150px;  
+}
+.sidebar-navbar-list-title{
+    font-family: Battambang;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 43.36px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(14, 33, 99, 1);
+}
+    
+.sidebar-navbar-list-text{
+    font-family: Battambang;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32.52px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(14, 33, 99, 1); 
+}

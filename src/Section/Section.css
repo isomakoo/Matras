@@ -1,0 +1,259 @@
+.section {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.section-container {
+  width: 1440px;
+  height: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+.section-navbar {
+  width: 990px;
+  top: 50px;
+  height: 282px;
+  margin-top: 280px !important;
+  margin: 0 auto;
+  gap: 72px;
+  opacity: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+.section-navbar-list:nth-child(1) {
+  background-image: url("../assets/Group 7.png");
+  background-size: cover; /* Tasvirni konteynerga moslash */
+  background-position: center; /* Tasvirni markazda joylash */
+  background-repeat: no-repeat; /* Takrorlanmasligi uchun */
+  width: 282px;
+  height: 282px;
+  gap: 0px;
+  opacity: 0px;
+}
+.section-navbar-list:nth-child(2) {
+  background-image: url("../assets/matras3.png");
+  background-size: cover; /* Tasvirni konteynerga moslash */
+  background-position: center; /* Tasvirni markazda joylash */
+  background-repeat: no-repeat; /* Takrorlanmasligi uchun */
+  width: 282px;
+  height: 282px;
+  gap: 0px;
+  opacity: 0px;
+}
+.section-navbar-list:nth-child(3) {
+  background-image: url("../assets/matras2.png");
+  background-size: cover; /* Tasvirni konteynerga moslash */
+  background-position: center; /* Tasvirni markazda joylash */
+  background-repeat: no-repeat; /* Takrorlanmasligi uchun */
+  width: 282px;
+  height: 282px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.section-navbar-list-text {
+  font-family: Battambang;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 10.81px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: hsl(0, 0%, 100%);
+  margin-top: 160px;
+  margin-left: 20px;
+}
+.section-navbar-list-textes {
+  font-family: Battambang;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22px;
+  text-align: left;
+  display: block;
+  width: 256px;
+  height: 72px;
+  padding-left: 20px;
+  color: #ffffff;
+}
+.section-navbares {
+  width: 1200px;
+  top: 180px;
+  position: relative;
+  height: 906px;
+  margin: 0 auto !important;
+  gap: 24px;
+  margin-bottom: 100px !important;
+  opacity: 0px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.section-navbares-list {
+  background-image: url("../assets/matras5.png");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.01),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("../assets/matras5.png");
+
+  background-size: cover; /* Tasvirni konteynerga moslash */
+  background-position: center; /* Tasvirni markazda joylash */
+  background-repeat: no-repeat; /* Takrorlanmasligi uchun */
+  width: 384px;
+  height: 256px;
+  gap: 0px;
+  border: 0px 0px 1px 0px;
+  opacity: 0px;
+}
+.section-navbares-list-title {
+  width: 184px;
+  height: 21px;
+  top: 132px;
+  left: 16px;
+  gap: 0px;
+  position: relative;
+  opacity: 0px;
+  font-family: Italianno;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 45px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+.section-navbares-list-text {
+  width: 96px;
+  height: 26px;
+  top: 60px;
+  left: 272px;
+  gap: 0px;
+  opacity: 0px;
+  position: relative;
+  font-family: Battambang;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 65.04px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+.section-navbares-list-btn {
+  width: 100px;
+  height: 22px;
+  position: relative;
+  top: 55px;
+  margin-left: 10px;
+  font-family: Lexend Deca;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.4px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  padding: 4px 8px;
+  border: 1px solid #ffffffcc;
+  opacity: 0.9; /* Shaffoflikni sozlash */
+  color: rgba(255, 255, 255, 0.8); /* Matn rangi oq */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url("../assets/matras5.png"); /* Rasm va gradient */
+  background-size: cover; /* Rasmni butun maydonga sig'dirish */
+  background-position: center; /* Rasmni markazga joylashtirish */
+  border-radius: 4px; /* Tugmani burchaklarini yumaloqlash */
+}
+.section-navbares-list-btnes {
+  width: 136px;
+  text-decoration: none;
+  height: 44px;
+  position: relative;
+  top: 46px;
+  left: 10px;
+  font-family: Lexend Deca;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  padding: 6px 24px 6px 24px;
+  gap: 10px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: 1px solid rgba(19, 19, 19, 0.16);
+}
+.section-btn-list{
+  width: 1260px;
+  height: 300px;
+  position: relative;
+  top: 150px;
+  left: 30px;
+  height: 82px;
+  margin: 0 auto;
+}
+.section-btnes.active {
+  color: rgba(14, 33, 99, 1) !important;
+}
+
+.section-btnes:not(.active) {
+  background: rgba(22, 36, 83, 0.9) !important; /* Bosilmagan tugmalar uchun rangi */
+  color: white; /* Yozuv rangini oq qilib berish */
+  background-image: none; /* Bosilmagan tugmada fon rasm ko‘rsatilmasin */
+}
+
+.section-btnes:not(.active):hover {
+  background-color: rgba(30, 51, 123, 1) !important; /* Hoverda rangi kuchayadi */
+}
+.section-btnes{
+  width: 382px;
+  height: 82px;
+  margin-left: 20px;
+  padding: 6px 24px 12px 24px;
+  gap: 10px;
+  color: rgba(14, 33, 99, 1);
+font-family: Battambang;
+background-image: url('../assets/images1111.png');
+background-size: cover; /* Tasvirni konteynerga moslash */
+background-position: center; /* Tasvirni markazda joylash */
+background-repeat: no-repeat; /* Takrorlanmasligi uchun */
+font-size: 32px;
+font-weight: 400;
+line-height: 57.81px;
+text-align: center;
+cursor: pointer;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+border: none;
+  transition: 0.3s;
+  
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px !important;
+}
+
+.pagination-btn {
+  background-color: #ddd;
+  border: none;
+  padding: 10px 15px;
+  margin:  5px;
+  margin-top: 80px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.pagination-btn.active {
+  background-color: #555;
+  color: white;
+}

@@ -1,0 +1,337 @@
+@font-face {
+  font-family: "Battambang";
+  src: url("./fonts/Battambang-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Battambang";
+  src: url("./fonts/Battambang-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+.Aboutheader {
+  background-image: url("../assets/imagesabt.png"); /* URL ichida maxsus belgilarni qochirish */
+  background-size: cover; /* Tasvirni konteynerga moslash */
+  background-position: center; /* Tasvirni markazda joylash */
+  background-repeat: no-repeat; /* Takrorlanmasligi uchun */
+  padding: 0;
+  width: 100%;
+  height: 960px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px, 20px, 30px, 50px !important;
+}
+.About-container {
+  width: 1200px;
+  height: 408px;
+  gap: 139px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0px;
+  text-align: left;
+}
+.Aboutheader-title {
+  font-family: Italianno;
+  font-size: 128px;
+  font-weight: 400;
+  line-height: 10px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #f2f5ff;
+}
+.Aboutheader-text {
+  width: 677px;
+  height: 58px;
+  font-family: Battambang;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 57.81px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+  color: #f2f5ff;
+}
+.Aboutheader-textes {
+  width: 677px;
+  height: 72px;
+  gap: 0px;
+  opacity: 0px;
+  color: rgba(242, 245, 255, 1);
+  font-family: Battambang;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.Aboutheader-btnes{
+  width: 227px;
+  height: 54px;
+  min-width: 239px;
+  padding: 7px 24px 14px 24px;
+  gap: 6px;
+  opacity: 0px;  
+  display: block;
+  font-family: Battambang;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  cursor: pointer;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.aboutmain {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+.aboutmain-container {
+  width: 1200px;
+  height: 780px;
+  margin: 0 auto;
+  position: relative;
+  top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.aboutmain-title {
+  font-family: Italianno;
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(14, 33, 99, 1);
+}
+.aboutmain-text {
+  font-family: Battambang;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25.13px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(14, 33, 99, 1);
+  width: 588px;
+  height: 72px;
+}
+.aboutmain-textes {
+  font-family: Battambang;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32.52px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 588px;
+  height: 198px;
+  gap: 0px;
+  opacity: 0px;
+  color: rgba(14, 33, 99, 1);
+}
+.aboutmain-list {
+  width: 1200px;
+  height: 551px;
+  margin: 0 auto;
+  position: relative;
+  top: 130px;
+  gap: 0px;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0px;
+}
+.aboutmain-listes-title {
+  font-family: Italianno;
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: right;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 588px;
+  height: 30px;
+  gap: 0px;
+  opacity: 0px;
+  color: rgba(14, 33, 99, 1);
+}
+.aboutmain-listes-text {
+  font-family: Battambang;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30.52px;
+  text-align: right;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 588px;
+  height: 120px;
+  gap: 0px;
+  opacity: 0px;
+  color: rgba(14, 33, 99, 1);
+}
+.aboutsidebar {
+  width: 100%;
+  height: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+.about-sidebar-list {
+  background-image: url("../assets/aboutsidebar.png");
+  background-size: cover; /* Tasvirni konteynerga moslash */
+  background-position: center; /* Tasvirni markazda joylash */
+  background-repeat: no-repeat; /* Takrorlanmasligi uchun */
+  position: relative;
+  top: 150px;
+  width: 100%;
+  height: 1058px;
+  display: block;
+}
+.about-sidebar-list-title {
+  font-family: Italianno;
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 120px;
+  position: relative;
+  top: 150px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 1200px;
+  height: 120px;
+  margin: 0 auto;
+  color: rgba(242, 245, 255, 1);
+}
+.about-sidebar-listes {
+  width: 1200px;
+  height: 733px;
+  position: relative;
+  top: 160px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.about-lister-title {
+  font-family: Battambang;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 65.04px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 384px;
+  height: 65px;
+  gap: 0px;
+  opacity: 0px;
+  color: rgba(242, 245, 255, 1);
+}
+.about-sidebar-lister-text {
+  font-family: Battambang;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(242, 245, 255, 1);
+  width: 384px;
+  height: 224px;
+  gap: 0px;
+  opacity: 0px;
+}
+.about-sidebar-listes-title {
+  font-family: Battambang;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 65.04px;
+  text-align: left;
+  position: relative;
+  top: 150px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(255, 255, 255, 1);
+  width: 792px;
+  height: 65px;
+}
+.about-sidebar-listes-text {
+  font-family: Battambang;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(242, 245, 255, 1);
+  width: 792px;
+  height: 96px;
+  position: relative;
+  top: 150px;
+}
+.about-section-title {
+  font-family: Battambang;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 65.04px;
+  text-align: right;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(242, 245, 255, 1);
+  width: 384px;
+  height: 130px;
+  gap: 0px;
+  opacity: 0px;
+}
+.about-section-text {
+  font-family: Battambang;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+  text-align: right;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(242, 245, 255, 1);
+  width: 384px;
+  height: 192px;
+  gap: 0px;
+  opacity: 0px;
+}
+.aboutsidebar-navbar {
+  width: 1200px;
+  height: 497px;
+  margin: 0 auto;
+  position: relative;
+  top: 150px;
+  gap: 48px;
+  opacity: 0px;
+}
+.aboutsidebar-navbar-title {
+  width: 1200px;
+  height: 160px;
+  font-family: Italianno;
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 120px;
+  margin: 0 auto;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(14, 33, 99, 1);
+}
+.aboutsidebar-navbar-text {
+  font-family: Battambang;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 43.36px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(14, 33, 99, 1);
+  width: 1200px;
+  height: 129px;
+  margin: 0 auto;
+}

@@ -1,0 +1,152 @@
+.contacther-container {
+  width: 1152px;
+  padding: 0;
+  position: relative;
+  margin: 0 auto;
+  height: 678px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact-img {
+    margin-top:  50px;
+  display: block;
+  width: 486px;
+  height: 518px;
+}
+.contact-form {
+  width: 588px;
+  height: 528px;
+  gap: 24px;
+}
+.contact-inp {
+  font-family: Battambang;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 36.13px;
+  margin-bottom: 20px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(108, 108, 108, 1);
+  width: 570px;
+  height: 62px;
+  padding: 14px 0px 0px 20px;
+  background: rgba(232, 236, 248, 1);
+  border: transparent;
+  gap: 10px;
+  margin-top: 5px !important;
+}
+.contact-inpus {
+  font-family: Battambang;
+  font-size: 20px;
+  min-height: 62px;
+  font-weight: 300;
+  line-height: 36.13px;
+  text-align: left;
+  margin-top: 5px !important;
+  margin-top: 20px;
+  border: transparent;
+  background: rgba(232, 236, 248, 1);
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(108, 108, 108, 1);
+  width: 100%; /* 100% o'lchamdagi kenglik */
+  max-width: 570px; /* Maksimal kenglikni 500px bilan cheklash */
+  max-height: 100px; /* Balandlikni 150px ga cheklash */
+  resize: vertical; /* Foydalanuvchi maydonni faqat vertikal yo'nalishda o'zgartirishi mumkin */
+  padding-left: 20px;
+}
+.contact-label {
+  font-family: Battambang;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 43.36px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(14, 33, 99, 1);
+}
+.contact-btn {
+  width: 608px;
+  border: transparent;
+  height: 62px;
+  min-width: 250px;
+  padding: 0px 20px 0px 24px;
+  gap: 10px;
+  font-family: Battambang;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 36.13px;
+ color: rgba(0, 0, 0, 1);
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  background: rgba(242, 245, 255, 1);
+  opacity: 0px;
+  margin-top: 40px;
+}
+.contactsection{
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  top: 100px;
+}
+.contactsection-title{
+  width: 100%;
+  text-align: center;
+}
+.contactsection-list{
+  width: 1200px;
+  height: 710px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 48px;
+  opacity: 0px;
+    
+}
+.contactsection-text{
+  width: 285px;
+  height: 43px;
+  gap: 0px;
+  opacity: 0px;
+  color: rgba(0, 0, 0, 1);  
+font-family: Battambang;
+font-size: 22px;
+font-weight: 400;
+line-height: 43.36px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.contactsection-link{
+  width: 405px !important;
+  height: 25px;
+ display: block;
+  font-family: Lexend Deca;
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 25px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  text-decoration: none; 
+  color: rgba(0, 0, 0, 1);
+  
+}
+.contactsection-title{
+  height: 150px;
+  font-family: Italianno;
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 120px;
+  text-align: center;
+  margin: 0 auto;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(0, 0, 0, 1);
+  
+}

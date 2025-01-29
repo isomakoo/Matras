@@ -1,0 +1,86 @@
+.footer {
+  background-image: url('../assets/matras7.png');
+  background-size: cover; /* Tasvirni konteynerga moslash */
+  background-position: center; /* Tasvirni markazda joylash */
+  background-repeat: no-repeat; /* Takrorlanmasligi uchun */
+  width: 100%;
+  position: relative;
+  top: 100px;
+  height: 459px;
+}
+.footer-container {
+    position: relative;
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 259px;
+  top: 100px;
+  margin: 0 auto;
+}
+.footer-hero {
+  display: flex;
+  justify-content: space-between;
+  width: 606px;
+  height: 259px;
+  gap: 24px;
+  opacity: 0px;
+}
+.footer-navbar-text{
+    font-family: Battambang;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 23px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 255, 255, 1);
+    width: 300px;
+    height: 161px;
+    
+}
+.footer-link{
+    font-family: Battambang;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36.13px;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 255, 255, 1); 
+    align-items: center; 
+    text-decoration: none; 
+}
+.footer-img{
+position: relative;
+top: -10px;
+left: 30px; 
+}
+.footer-images{
+    position: relative;
+    top: 10px;
+    left: 40px; 
+    }
+    .footer-listes{
+      width: 300px;
+      text-align: center;
+        text-decoration: none;
+        list-style: none;
+    }   
+    .footer-listes-link{
+      width: 101px;
+      margin-bottom: 20px !important;
+      text-decoration: none;
+      height: 32px;
+      gap: 0px;
+      opacity: 0px;
+      font-family: Battambang;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 32px;
+      text-align: right;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+      color: rgba(255, 255, 255, 1);
+            
+    }

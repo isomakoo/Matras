@@ -1,0 +1,77 @@
+.Main{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+.Main-container{
+    width: 996px;
+    height: 231px;
+    margin: 0 auto;
+    top: 1060px;
+    left: 222px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+.main-title{
+    font-family: Italianno;
+    font-size: 96px;
+    font-weight: 400;
+    margin-top: 170px;
+    line-height: 60px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #0E2163;   
+}
+.main-titles{
+    font-family: Battambang;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 30.04px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #0E2163;   
+}
+.main-text{
+    font-family: Battambang;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 23px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #0E2163;
+}
+.main-images{
+    margin-top: 150px;
+}
+.main-section-title{  
+    font-family: Italianno;
+    font-size: 96px;
+    font-weight: 400;
+    margin-top: 150px;
+    line-height: 30px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #0E2163;
+    
+}
+.main-section-text{
+    font-family: Battambang;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 35px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 1044px;
+    height: 105px;
+    margin: 0 auto;
+    gap: 0px;
+    opacity: 0px;
+    color: #0E2163;
+        
+}
