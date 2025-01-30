@@ -38,22 +38,22 @@
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  
+
   color: #f2f5ff;
 }
 .navbar-text {
   width: 690px;
   height: 58px;
-font-family: Battambang;
-font-size: 32px;
-font-weight: 400;
-line-height: 57.81px;
-display: block;
-margin: 0;
-margin-top: 30px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
+  font-family: Battambang;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 57.81px;
+  display: block;
+  margin: 0;
+  margin-top: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
   color: #f2f5ff;
 }
 .navbar-textes {
@@ -77,27 +77,26 @@ text-decoration-skip-ink: none;
   border: transparent;
   padding: 7px 24px 14px 24px;
   background: rgba(242, 245, 255, 1);
-font-family: Lexend Deca;
-cursor: pointer;
-font-size: 20px;
-font-weight: 400;
-line-height: 24px;
-text-align: center;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-color: rgba(30, 30, 30, 1);
-
-
+  font-family: Lexend Deca;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(30, 30, 30, 1);
 }
-.navbar-nav{
+.navbar-nav {
   width: 529px;
-height:131px;
-gap: 24px;
-opacity: 0px;
-display: flex;
-justify-content: space-between;
-align-items: center;}
-.navbar-btnes{
+  height: 131px;
+  gap: 24px;
+  opacity: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-btnes {
   width: 282px;
   height: 52px;
   margin-left: 140px;
@@ -117,7 +116,121 @@ align-items: center;}
   cursor: pointer;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+}
+.navbar-logo{
+  width: 150px;
+  height: 131px;
   
-
+}
+@media (max-width: 1200px) {
+  .Navbar-container {
+    width: 1100px;
+  }
+}
+@media (max-width: 1100px) {
+  .Navbar-container {
+    width: 1000px;
+  }
+}
+@media (max-width: 1000px) {
+  .Navbar-container {
+    width: 900px;
+  }
+}
+@media (max-width: 900px) {
+  .Navbar-container {
+    width: 800px;
+  }
+  .navbar-title{
+    font-size: 84px;
+  }
+  .navbar-nav{
+    width: 60%;
+  }
+  .navbar-text{
+    font-size: 30px;
+  }
+  .navbar-btn, .navbar-btnes{
+    width: 120px;
+    height: 40px;
+  }
+}
+@media (max-width: 800px) {
+  .Navbar-container {
+    width: 700px;
+  }
+}
+@media (max-width: 700px) {
+  .Navbar-container {
+    width: 600px;
+  }
+  .Navbar{
+    height: 800px;
+  }
+  .navbar-text, .navbar-textes{
+    width: 95%;
+    height: auto;
+  }
+  .navbar-btn, .navbar-btnes{
+    width: 30%;
+  }
+  .navbar-btnes{
+    margin-left: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .Navbar-container {
+    width: 500px;
+  }
   
+}
+@media (max-width: 500px) {
+  .Navbar-container {
+    width: 400px;
+  }
+  .navbar-title{
+  width: 85%;
+  font-size: 66px;
+  }
+  .navbar-btn, .navbar-btnes{
+   margin-left: 0;
+   margin-top: 20px;
+  }
+  .navbar-logo{
+    width: 220px;
+    height: 100px;
+  }
+  .navbar-text{
+    line-height: 44px;
+  }
+}
+/* @media (max-width: 400px) {
+  .Navbar-container {
+    width: 300px;
+  }
+} */
+@media (max-width: 400px) {
+  .Navbar-container {
+    width: 300px;
+  }
+  .navbar-nav{
+    width: 95%;
+  }
+  .navbar-title{
+    width: 75%;
+    height: 80px;
+    font-size: 46px;
+    }
+    .navbar-btn, .navbar-btnes{
+     margin-left: 0;
+     margin-top: 20px;
+    }
+    .navbar-logo{
+      width: 100px !important;
+      height: 100px;
+    }
+    .navbar-text{
+      line-height: 34px;
+      font-size: 24px;
+    }
 }

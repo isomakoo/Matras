@@ -4,6 +4,7 @@ import logo1 from "../assets/Logo (4).png";
 import uz from "../assets/UZ.png";
 import ru from "../assets/RU.png";
 import eng from "../assets/GB.png";
+import { MdOutlineMenu } from "react-icons/md";
 import { Link, useLocation } from "react-router-dom";
 
 function Header() {
@@ -25,7 +26,7 @@ function Header() {
     <div>
       <div className="header">
         <div className="header-container">
-          <img src={logo1} alt="logo" width={223} height={44} />
+          <img src={logo1} alt="logo" className="header-logo" />
           <ul className="header-list">
             <li className="header-listes">
               <Link to="/home" className="header-link">Home</Link>
@@ -70,6 +71,7 @@ function Header() {
               </div>
             )}
           </div>
+          <button className="header-btn"><MdOutlineMenu width='40px' color="white"/></button>
         </div>
       </div>
     </div>

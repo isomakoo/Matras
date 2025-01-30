@@ -1,0 +1,94 @@
+.content{
+width: 100%;
+margin: 0;
+padding: 0;
+}
+.content-container{
+width: 1200px;
+margin: 0 auto;
+padding: 0;
+}
+.content-title{
+    font-family: Italianno;
+    font-size: 96px;
+    height: 120px;
+    font-weight: 400;
+    line-height: 120px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(14, 33, 99, 1);
+    
+}
+.content-navbar{
+    width: 258px;
+    margin: 30px;
+    height: 50px;
+    gap: 18px;
+    opacity: 0px;    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.customer-name{
+    height: 32px;
+    color: rgba(242, 245, 255, 1);
+    font-family: Battambang;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;    
+}
+.customer-feedback{
+    width: 272px;
+    height: 300px;
+    margin-top: -10px;
+    margin-left: 50px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Battambang;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;    
+    color: rgba(242, 245, 255, 1);        
+}
+.customer-rating{
+    width: 250px;
+margin-left: 50px;
+}
+.custom-swiper-buttonses {
+    margin-left: 45%;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .custom-swiper-button-preve,
+  .custom-swiper-button-nexte {
+    background-color: #727272;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .custom-swiper-button-preve:hover,
+  .custom-swiper-button-nexte:hover {
+    background-color: #0056b3;
+  }
+  .overlay {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(14, 33, 99, 0.85);
+
+  }
+  

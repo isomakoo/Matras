@@ -5,6 +5,7 @@ import Section from '../Section/Section'
 import Sidebar from '../Sidebar/Sidebar'
 import Footer from '../Footer/Footer'
 import Main from '../Main/Main'
+import Content from '../Content/Content'
 
 function Matras() {
   return (
@@ -12,8 +13,8 @@ function Matras() {
         <Header/>
         <Navbar/>
         <Main/>
-        <Section/>
-         {/* <Sidebar/> */}
+        {/* <Section/> */}
+        {/* <Content/> */}
          <Footer/>
     </div>
   )

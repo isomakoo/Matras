@@ -12,6 +12,7 @@
   text-decoration: none;
 }
 .header-container {
+  margin: 0 auto;
   display: flex;
   justify-content: space-around;
 }
@@ -24,8 +25,6 @@
   height: 27px;
   top: 18px;
   left: 493px;
-  gap: 48px;
-  opacity: 0px;
 }
 .header-link {
   text-decoration: none;
@@ -84,6 +83,14 @@
   align-items: center;
   cursor: pointer;
 }
+.header-btn{
+  display: none;
+}
+.header-logo{
+  width: 233px;
+  margin-top: 10px;
+  height: 40px;
+}
 
 .dropdown-option:hover {
   background: rgba(14, 33, 99, 1);
@@ -91,4 +98,94 @@
 
 .dropdown-option img {
   margin-right: 8px;
+}
+@media (max-width: 1000px) {
+  .header-container {
+    max-width: 900px; /* Katta ekranda 3ta, kichik ekranda 1ta */
+    height: auto;
+  }
+  .header-list{
+    width: 50%;
+  }
+  .header-link{
+    width: 10% !important;
+    font-size: 14px;
+  }
+}
+@media (max-width: 900px) {
+  .header-container {
+    margin: 0  auto !important;
+    max-width: 800px; /* Katta ekranda 3ta, kichik ekranda 1ta */
+    height: aut0;
+  }
+  .header-list{
+    padding: 0;
+    flex-wrap:wrap;
+    margin-left: 0 !important;
+    width: 470px;
+  }
+  .header-link{
+    width: 75px !important;
+    display: block;
+    font-size: 14px;
+  }
+  .header-listes{
+    width: 60px;
+  }
+  .header-logo{
+    height: 30px;
+    width: 130px !important;
+  }
+  .language-dropdown{
+     width: 90px;
+  }
+  .dropdown-options{
+    width: 113px;
+  }
+}
+@media (max-width: 800px) {
+  .header-container {
+    max-width: 700px; /* Katta ekranda 3ta, kichik ekranda 1ta */
+    height: auto;
+  }
+  .header-list{
+    width: 50%;
+  }
+  .header-link{
+    font-size: 12px;
+  }
+}
+@media (max-width: 700px) {
+  .header-container {
+    max-width: 600px; /* Katta ekranda 3ta, kichik ekranda 1ta */
+    height: auto;
+  }
+  .language-dropdown{
+    display: none;
+  }
+  .header-list{
+   display: none;
+  }
+  .header-btn{
+    display: block;
+    height: 30px;
+    width: 40px;
+    margin-top: 20px;
+    border: none;
+    background: rgba(14, 33, 99, 1);
+
+  }
+  .header-logo{
+    width: 230px !important;
+    height: 40px;
+  }
+  
+}
+@media (max-width: 400px) {
+  .header-container{
+    width: 300px;
+  }
+  .header-logo{
+    width: 150px !important;
+  }
 }

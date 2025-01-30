@@ -15,6 +15,7 @@ function Product() {
     <>
         <Header/>
         <Section/>
+        <Productes/>
         <Footer/>
     </>
   )

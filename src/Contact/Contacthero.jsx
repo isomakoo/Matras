@@ -53,7 +53,7 @@ function Contacthero() {
       });
 
       if (response.ok) {
-        toast.success('Ariza yuborildi!'); // Success message
+        toast.success('Ariza yuborildi! Tez Orada Mutaxasislar siz bilan Boglanishadi'); // Success message
         setFormData({
           name: '',
           phone: '',

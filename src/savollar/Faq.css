@@ -1,6 +1,6 @@
 .faq-container {
   width: 996px;
-  height: 642px;
+  height: auto;
   top: 56px;
   gap: 18px;
   position: relative;
@@ -10,13 +10,14 @@
 .faq-title {
   font-family: Battambang;
   font-size: 40px;
-  height: 170px;
+  height: 120px;
   font-weight: 400;
   line-height: 72.27px;
   text-align: center;
   margin: 0 auto;
   position: relative;
-  top: 100px; 
+  padding-top: 50px;
+  top: 50px; 
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   color: #333;
@@ -31,7 +32,7 @@
 .faq-item {
   margin-bottom: 15px;
   padding: 10px;
-  background-color: #fff;
+  background: rgba(232, 236, 248, 1);
   border-radius: 5px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
@@ -59,4 +60,43 @@ text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
 
+}
+@media (max-width: 1000px) {
+  .faq-container{
+    width: 900px;
+  }
+}
+@media (max-width: 9000px) {
+  .faq-container{
+    width: 800px;
+  }
+}
+@media (max-width: 800px) {
+  .faq-container{
+    width: 700px;
+  }
+}
+@media (max-width: 700px) {
+  .faq-container{
+    width: 600px;
+  }
+}
+@media (max-width: 600px) {
+  .faq-container{
+    width: 500px;
+  }
+  .faq-answer, .faq-question{
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+@media (max-width: 500px) {
+  .faq-container{
+    width: 400px;
+  }
+}
+@media (max-width: 400px) {
+  .faq-container{
+    width: 300px;
+  }
 }

@@ -17,7 +17,7 @@ function Navbar() {
       <div className="Navbar">
         <div className="Navbar-container">
            <nav className="navbar-nav">
-           <img src={logo1} alt="logo" width={159} height={131} />
+           <img src={logo1} alt="logo" className="navbar-logo" />
           <h1 className="navbar-title">WestMatras</h1>
            </nav>
           <p className="navbar-text">

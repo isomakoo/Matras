@@ -16,7 +16,7 @@ function Footer() {
           <div className="footer-hero">
           <img src={logo4} alt="" className="footer-logo" />
           <div className="footer-navbar">
-            <img src={west} alt="logo" />
+            <img src={west} alt="logo" className="footer-logos" />
             <p className="footer-navbar-text">
               Biz sifatli matras ishlab chiqarishga ixtisoslashgan Westmatres
               kompaniyasimiz. Bizning vazifamiz hamma uchun qulay uyquni
@@ -40,11 +40,12 @@ function Footer() {
               <Link to='/contact' className="footer-listes-link" >Contact us</Link>
             </li>
             <li className="footer-listes-navbar">
-              <Link to='/faq'  className="footer-listes-link" >Faq</Link>
+              <Link to='/faq'  className="footer-listes-link" >FAQ</Link>
             </li>
           </ul>
           <div className="footer-linkes">
-                    <span className="footer-linkeses"><nav>
+                    <span className="footer-linkeses">
+                      <nav className="footer-nav">
                       <a href="tel:+998 78 333 79 79" className="footer-link-nav">+998 78 333 79 79</a> <br />
                       <a href="tel:+998 78 333 79 79" className="footer-link-nav">+998 78 333 79 79</a> </nav>
                       <img src={phone} alt="" className="footer-img"/>
