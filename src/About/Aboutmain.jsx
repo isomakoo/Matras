@@ -10,7 +10,7 @@ function Aboutmain() {
       <div className="aboutmain">
         <div className="aboutmain-container">
         <div className="aboutmain-list">
-          <img src={images11} alt="matras" width={510} height={401} />
+          <img src={images11} alt="matras" className="aboutmain-img" />
           <div className="aboutmain-listes">
             <h2 className="aboutmain-listes-title">Bizning tariximiz</h2>
             <p className="aboutmain-listes-text">
@@ -25,7 +25,7 @@ function Aboutmain() {
         </div>
           
         </div>
-        <img src={imagesaboutes} alt="images" width="100%" height={480} />
+        <img src={imagesaboutes} alt="images" className="aboutmain-images" />
        
       </div>
     </div>

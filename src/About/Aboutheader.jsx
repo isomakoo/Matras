@@ -13,7 +13,7 @@ function Aboutheader() {
       <div className="Aboutheader">
         <div className="About-container">
           <div className="Aboutheader-list">
-          <h1 className="Aboutheader-title">Biz haqimizda</h1>
+          <h1 className="Aboutheader-title">Biz  haqimizda</h1>
           <p className="Aboutheader-text">
             Sizning Qulayligingiz, Bizning Mahoratimiz
           </p>
@@ -25,7 +25,7 @@ function Aboutheader() {
           </p>
           <button className="Aboutheader-btnes" onClick={handlematras}>Matraslarni ko’rish</button>
           </div>
-          <img src={logoabtt} alt="rasm" width={473} height={332} />
+          <img src={logoabtt} alt="rasm"  className="aboutheader-img"/>
         </div>
       </div>
     </>

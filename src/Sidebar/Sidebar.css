@@ -86,3 +86,129 @@ opacity: 0px;
     text-decoration-skip-ink: none;
     color: rgba(14, 33, 99, 1); 
 }
+@media (max-width: 1200px) {
+  .sidebar-container{
+    width: 100% !important;
+  }  
+  .sidebar-text{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .sidebar-navbar{
+    width: 100%;
+    padding: 0;
+  }
+}
+@media (max-width: 1100px) {
+    .sidebar-container{
+      width: 1000px;
+    }  
+    .sidebar-navbar{
+        width: 1000px;
+  }}
+  @media (max-width: 1000px) {
+    .sidebar-container{
+      width: 900px;
+      height: 350px;
+    }  
+    .sidebar-navbar{
+        width: 900px;
+  }
+    .sidebar-text{ 
+        position: relative;
+        top: 100px;
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+  }
+  @media (max-width: 900px) {
+    .sidebar-container{
+      width: 800px;
+    }  
+    .sidebar-navbar{
+        width: 800px;
+  }
+  }
+  @media (max-width: 800px) {
+    .sidebar-container{
+      width: 700px;
+    }
+    .sidebar-navbar{
+        width: 700px;
+  }
+    .sidebar-title{
+        font-size: 76px;
+        line-height: 88px;
+        margin-top: 30px;
+    }
+    .sidebar-navbar{
+        height: auto;
+        flex-direction: column;
+    }  
+    .sidebar-navbar-list{
+        height: auto;
+        margin-top: 20px;
+    }
+  }
+  @media (max-width: 700px) {
+    .sidebar-container{
+      width: 600px;
+    } 
+    .sidebar-navbar{
+        width: 600px;
+  } 
+  }
+  @media (max-width: 600px) {
+    .sidebar-container{
+      height: 400px;
+    }  
+    .sidebar-title{
+        font-size: 66px;
+    }
+    .sidebar-text{
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .sidebar-navbar{
+        width: 500px;
+  }
+  }
+  @media (max-width: 500px) {
+    .sidebar-container{
+      width: 400px;
+    }  
+    .sidebar-text{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .sidebar-title{
+        font-size: 56px;}
+    .sidebar-navbar{
+        width: 400px;
+  }
+  .sidebar-navbar-list-title{
+    font-size: 20px;
+  }
+  .sidebar-navbar-list-text{
+    font-size: 14px;
+    line-height: 26px;
+  }
+  }
+  @media (max-width: 400px) {
+    .sidebar-container{
+      width: 300px;
+    }  
+    .sidebar-navbar{
+        width: 300px;
+  }
+  }
+  @media (max-width: 300px) {
+    .sidebar-container{
+      width: 280px;
+    }  
+    .sidebar-navbar{
+        width: 280px;
+  }
+  }
