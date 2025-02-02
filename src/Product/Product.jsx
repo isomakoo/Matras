@@ -15,7 +15,7 @@ function Product() {
     <>
         <Header/>
         <Section/>
-        <Productes/>
+        {/* <Productes/> */}
         <Footer/>
     </>
   )

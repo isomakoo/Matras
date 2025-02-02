@@ -150,3 +150,216 @@ text-decoration-skip-ink: none;
   color: rgba(0, 0, 0, 1);
   
 }
+.contactsection-kart{
+  width: 600px;
+  height: 450px;
+}
+@media (max-width: 1200px) {
+  .contactsection{
+    width: 1100px;
+  }
+  .contacther-container{
+    width: 1100px;
+  }
+  .contactsection-list{
+    width: 1100px;
+  }
+  .contact-img{
+    width: 48%;
+  }
+  .contact-form{
+    width: 50%;
+  }
+  .contact-inp, .contact-inpus{
+    width: 90%;
+  }
+  .contact-btn{
+    width: 95%;
+  }
+  .contactsection-kart{
+    width: 50%;
+  }
+  .contactsection-navbar{
+    width: 48%;
+  }
+  .contactsection-link{
+    width: 90% !important;
+    display: block;
+    height: auto;
+  }
+}
+@media (max-width: 1100px) {
+  .contactsection{
+    width: 1000px;
+  }
+  .contactsection-list{
+    width: 1000px;
+  }
+  .contacther-container{
+    width: 1000px;
+  }
+}
+@media (max-width: 1000px) {
+  .contactsection{
+    width: 900px;
+  }
+  .contacther-container{
+    width: 900px;
+  }
+  .contactsection-title{
+    width: 100%;
+    margin: 0 auto;
+    font-size: 76px;
+  }
+  .contactsection-list{
+    width: 900px;
+  }
+}@media (max-width: 900px) {
+  .contactsection{
+    width: 800px;
+  }
+  .contactsection-list{
+    width: 800px;
+  }
+  .contacther-container{
+    width: 800px;
+  }
+}
+@media (max-width: 800px) {
+  .contactsection{
+    width: 700px;
+  }
+  .contactsection-list{
+    width: 700px;
+  }
+  .contacther-container{
+    width: 700px;
+  }
+}
+@media (max-width: 700px) {
+  .contactsection{
+    width: 600px;
+  }
+  .contacther-container{
+    width: 600px;
+    height: auto;
+    position: relative;
+    top: 100px;
+    flex-direction: column-reverse;
+  }
+  .contact-form{
+   position: relative;
+  top: 30px;
+  bottom: 30px;
+   height: 600px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .contact-img{
+    width: 88%;
+    margin: 0 auto;
+  }
+  .contactsection-list{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+  }
+  .contactsection-kart{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .contactsection-link{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .contactsection-text{
+    width: 90%;
+    margin-left: 10px;
+    text-align: center;
+  }
+  .contactsection-navbar{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 600px) {
+  .contactsection{
+    width: 500px;
+  }
+  .contacther-container{
+    width: 500px;
+  }
+  .contactsection-list{
+    width: 500px;
+  }
+  .contactsection-title{
+    font-size: 66px;
+  }
+}
+@media (max-width: 500px) {
+  .contactsection{
+    width: 400px;
+  }
+  .contacther-container{
+    width: 400px;
+  }
+  .contactsection-list{
+    width: 400px;
+  }
+  .contactsection-title{
+    font-size: 52px;
+  }
+  .contactsection-text{
+    font-size: 18px;
+  }
+  .contactsection-kart{
+    height: 350px;
+  }
+  .contactsection-link{
+    font-size: 18px;
+  }
+  .contact-img{
+    height: 350px;
+  }
+  .contact-label, .contact-inp, .contact-inpus, .contact-btn{
+    font-size: 18px;
+  }
+}
+.contact-inp, .contact-inpus{
+  height: 50px;
+ padding-top: 5px;
+}
+.contact-btn{
+  height: 50px;
+}
+@media (max-width: 400px) {
+  .contactsection{
+    width: 300px;
+  }
+  .contacther-container{
+    width: 300px;
+  }
+  .contactsection-list{
+    width: 300px;
+  }
+  .contactsection-title{
+    font-size: 44px;
+    height: auto;
+    line-height: 50px;
+  }
+}
+@media (max-width: 300px) {
+  .contactsection{
+    width: 280px;
+  }
+  .contacther-container{
+    width: 280px;
+  }
+  .contactsection-list{
+    width: 280px;
+  }
+}

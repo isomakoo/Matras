@@ -28,19 +28,19 @@ function Footer() {
           </div>
           <ul className="footer-listes">
             <li className="footer-listes-navbar">
-              <Link to='/home' className="footer-listes-link" >Home</Link>
+              <Link to='/home' className="footer-listes-link" ><p className="footer-link-text">Home</p></Link>
             </li>
             <li className="footer-listes-navbar">
-              <Link to='/about' className="footer-listes-link" >About us</Link>
+              <Link to='/about' className="footer-listes-link" ><p className="footer-link-text">About us </p></Link>
             </li>
             <li className="footer-listes-navbar">
-              <Link to='/product' className="footer-listes-link" >Product</Link>
+              <Link to='/product' className="footer-listes-link" ><p className="footer-link-text">Product </p></Link>
             </li>
             <li className="footer-listes-navbar">
-              <Link to='/contact' className="footer-listes-link" >Contact us</Link>
+              <Link to='/contact' className="footer-listes-link" ><p className="footer-link-text">Contact us</p></Link>
             </li>
             <li className="footer-listes-navbar">
-              <Link to='/faq'  className="footer-listes-link" >FAQ</Link>
+              <Link to='/faq'  className="footer-listes-link" ><p className="footer-link-text">FAQ </p></Link>
             </li>
           </ul>
           <div className="footer-linkes">
