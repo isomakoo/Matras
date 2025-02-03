@@ -13,8 +13,8 @@ function Matras() {
         <Header/>
         <Navbar/>
         <Main/>
-        {/* <Section/> */}
-        {/* <Content/> */}
+        <Section/>
+        <Content/>
          <Footer/>
     </div>
   )

@@ -78,11 +78,11 @@
   font-size: 20px;
   font-weight: 300;
   line-height: 36.13px;
- color: rgba(0, 0, 0, 1);
+  color: rgba(242, 245, 255, 1);
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  background: rgba(242, 245, 255, 1);
+  background: rgba(14, 33, 99, 1);
   opacity: 0px;
   margin-top: 40px;
 }

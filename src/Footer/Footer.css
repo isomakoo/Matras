@@ -74,6 +74,9 @@ left: 30px;
     top: 10px;
     left: 40px; 
     }
+    .footer-link-text{
+      text-align: center;
+    }
     .footer-listes{
       width: 300px;
       text-align: center;

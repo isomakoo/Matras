@@ -90,10 +90,9 @@
 }
 .aboutmain-container {
   width: 1200px;
-  height: 780px;
+  height: 650px;
   margin: 0 auto;
   position: relative;
-  top: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -322,7 +321,7 @@
 }
 .aboutmain-images{
   position: relative;
-  top: 80px;
+  top: 50px;
  width: 100%;
  height: 400px;
 }

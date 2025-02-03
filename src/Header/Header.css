@@ -57,7 +57,7 @@ color: brown;
   display: flex;
   align-items: center;
   cursor: pointer;
-  width: 128px;
+  width: 68px;
   padding: 4px 12px 4px 12px;
   color: white;
   height: 30px;
@@ -76,7 +76,7 @@ color: brown;
   left: 0;
   background: rgba(14, 33, 99, 1);
   border: 1px solid #ccc;
-  width: 150px;
+  width: 90px;
   z-index: 10;
 }
 

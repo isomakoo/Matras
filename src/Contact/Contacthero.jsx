@@ -78,36 +78,36 @@ function Contacthero() {
               className='contact-inp'
               id="name"
               name="name"
-              placeholder="Ismingiz"
+              placeholder="Ism Familiyani kiriting"
               value={formData.name}
               onChange={handleChange}
               required
             /> <br />
 
-            <label htmlFor="phone" className='contact-label'>Telefon raqamingizni kiriting</label>
+            <label htmlFor="phone" className='contact-label'>Telefon raqam</label>
             <input
               type="tel"
               className='contact-inp'
               id="phone"
               name="phone"
-              placeholder="Telefon raqamingiz"
+              placeholder="+998"
               value={formData.phone}
               onChange={handleChange}
               required
             /> <br />
 
-            <label htmlFor="description" className='contact-label'>Tavsif</label> <br />
+            <label htmlFor="description" className='contact-label'>Habaringizni yozing</label> <br />
             <textarea
               className='contact-inpus'
               id="description"
               name="description"
-              placeholder="Tavsifni kiriting"
+              placeholder="Habaringizni kiriting"
               value={formData.description}
               onChange={handleChange}
               required
             /> <br />
 
-            <button type="submit" className='contact-btn'>Ariza Qoldirish</button>
+            <button type="submit" className='contact-btn'>JO’NATISH</button>
           </form>
 
           <img src={contactimg} alt="matras" width={486} height={619} className='contact-img' />
