@@ -16,6 +16,7 @@ function Contact() {
         <Footer></Footer>
     </div>
   )
+  
 }
 
 export default Contact
