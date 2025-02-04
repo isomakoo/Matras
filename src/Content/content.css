@@ -82,6 +82,7 @@ margin-left: 50px;
     background-color: #0056b3;
   }
   .overlay {
+    display: block;
     position: absolute;
     z-index: -1;
     top: 0;
