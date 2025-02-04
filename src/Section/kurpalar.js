@@ -13,6 +13,7 @@ export const kurpalar = [
     label: "Royal matrasimiz bilan qirollik uyqusini his eting.",
     text: "Yuqori sifatli po’lat buloqlar va mustahkamlangan qirralar bilan uzoq muddatli qo‘llab-quvvatlash ta’minlaydi.",
     textes: "Qirollik darajasidagi qulaylik.",
+    size: "Twin - 38”W x 75”L x 14”H"
   },
   {
     id: 2,
@@ -24,6 +25,7 @@ export const kurpalar = [
     label: "Extra qulaylik va yumshoqlik.",
     text: "Ushbu matras tanaga moslashib, optimal bosim taqsimotini ta’minlaydi.",
     textes: "Ortopedik qulaylik bilan sog‘lom uyqu.",
+    size: "Twin - 38”W x 75”L x 14”H"
   },
   {
     id: 3,
@@ -35,6 +37,7 @@ export const kurpalar = [
     label: "Shaxsiy moslashuv va bosimni kamaytirish.",
     text: "Issiqlik ta’sirida shaklini o‘zgartirib, maksimal qulaylik yaratadi.",
     textes: "Memory foam bilan ideal yotish holati.",
+    size: "Twin - 38”W x 75”L x 14”H"
   },
   {
     id: 4,
@@ -46,6 +49,7 @@ export const kurpalar = [
     label: "Ortopedik qo‘llab-quvvatlash bilan bel uchun ideal.",
     text: "Ortopedik xususiyatlarga ega bo‘lib, bel va orqa og‘riqlarini kamaytiradi.",
     textes: "Tana tuzilishiga mos qo‘llab-quvvatlash.",
+    size: "Twin - 38”W x 75”L x 14”H"
   },
   {
     id: 5,
@@ -57,6 +61,7 @@ export const kurpalar = [
     label: "Maksimal yumshoqlik va nafislik.",
     text: "Super-yumshoq qatlamlar bilan hashamatli his beradi.",
     textes: "Mehmonxona darajasidagi qulaylik.",
+    size: "Twin - 38”W x 75”L x 14”H"
   },
   {
     id: 6,
@@ -68,6 +73,7 @@ export const kurpalar = [
     label: "Sovutuvchi texnologiya bilan yozgi uyqu uchun ideal.",
     text: "Haroratni nazorat qilib, ortiqcha issiqlikni kamaytiradi.",
     textes: "Harorat nazorati bilan tetik uyg‘oning.",
+    size: "Twin - 38”W x 75”L x 14”H"
   },
   {
     id: 7,
@@ -79,6 +85,7 @@ export const kurpalar = [
     label: "Ikki qatlamli texnologiya bilan qo‘llab-quvvatlash.",
     text: "Memory foam va bahor buloqlari kombinatsiyasi.",
     textes: "Mukammal balans va yostiq qo‘llab-quvvatlash.",
+    size: "Twin - 38”W x 75”L x 14”H"
   },
   {
     id: 8,
@@ -90,6 +97,7 @@ export const kurpalar = [
     label: "Tabiiy bambuk tolalaridan tayyorlangan.",
     text: "Antibakterial va allergiyaga mos matras.",
     textes: "Sog‘lom va ekologik toza uyqu.",
+    size: "Twin - 38”W x 75”L x 14”H"
   },
   {
     id: 9,
@@ -101,5 +109,6 @@ export const kurpalar = [
     label: "Aloe Vera ekstrakti bilan qulaylik.",
     text: "Tabiiy shifobaxsh xususiyatlarga ega material.",
     textes: "Sog‘lom uyqu uchun Aloe Vera bilan maxsus matras.",
+    size: "Twin - 38”W x 75”L x 14”H"
   }
 ];

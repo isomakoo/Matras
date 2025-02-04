@@ -1,0 +1,83 @@
+{
+  "home": "Home",
+  "about": "About Us",
+  "product": "Product",
+  "contact": "Contact Us",
+  "faq": "FAQ",
+  "navbar": {
+    "slogan": "Your comfort is our responsibility",
+    "description": "We take full responsibility for delivery. Mattresses created for perfect sleep are waiting for their owners. WestMatras provides a quality guarantee for each product.",
+    "mattresses": "Mattresses",
+    "contact": "Contact"
+  },
+
+  "excellent_sleep": "Excellent Sleep Guarantee",
+  "comfort_responsibility": "Your comfort is our responsibility",
+  "delivery_guarantee": "We take full responsibility for delivery.",
+  "ideal_sleep_matras": "Mattresses designed for ideal sleep are waiting for their owners.",
+  "quality_guarantee": "WestMatres ensures quality for every product.",
+  "our_products": "Our Products",
+  "perfect_matras_creation": "Our mission is to provide comfortable sleep for everyone. To create the perfect mattress, we use only the best materials and modern technologies!",
+
+  "footer_description": "We are Westmatres, a company specializing in producing high-quality mattresses. Our mission is to ensure comfortable sleep for everyone. To create the perfect mattress, we use only the best materials and modern technologies!",
+  "footer-home": "Home",
+  "about_us": "About Us",
+  "footer-product": "Product",
+  "contact_us": "Contact Us",
+  "footer-faq": "FAQ",
+
+  "about_title": "About Us",
+  "about_subtitle": "Your Comfort, Our Expertise",
+  "about_description": "At WestMatres, we believe that a good night's sleep is the foundation of a great day. That’s why we’ve dedicated ourselves to creating high-quality mattresses and bedding products that provide exceptional comfort and support.",
+  "view_mattresses": "View Mattresses",
+
+  "about_history_title": "Our History",
+  "about_history_description": "At WestMatres, we believe that a good night's sleep is the foundation of a great day. That’s why we’ve dedicated ourselves to creating high-quality mattresses and bedding products that provide exceptional comfort and support. We’re not just selling products; we’re investing in your well-being.",
+
+  "offer_title": "Our Offer",
+  "offer_description": "Explore our selection of mattresses and bedding and find out how WestMatres can affect your sleep. If you have any questions, please feel free to contact our friendly team. We’re ready to assist you on your way to a better sleep.",
+
+  "sidebar_description": "We are Westmatres, a company specializing in the production of high-quality mattresses. Our mission is to provide comfortable sleep for everyone. To create the perfect mattress, we use only the best materials and modern technologies!",
+  "sidebar_values_title": "Our Values",
+  "quality_title": "High Quality",
+  "quality_description": "We use only the best materials in the process of creating our mattresses to ensure quality sleep.",
+  "comfort_title": "Comfort and Convenience",
+  "comfort_description": "Our mattresses are designed to meet all customer needs, providing maximum comfort and convenience.",
+  "delivery_title": "Fast Delivery",
+  "delivery_description": "We guarantee delivery of mattresses directly to you within 1 business day.",
+
+  "contact_title": "Contact Us",
+  "email_label": "Email address:",
+  "contact_number_label": "Contact Number:",
+  "address_label": "Our Address:",
+  "address": "Yunusabad District, Yangi Yunusabad Street, 13-apartment, 45-house, 14-room",
+  
+    "name": "Name",
+    "phone": "Phone",
+    "message": "Message",
+    "form_success": "Application sent! Our specialists will contact you soon.",
+    "form_error": "An error occurred!",
+    "name_label": "Enter your name",
+    "name_placeholder": "Enter full name",
+    "phone_label": "Phone number",
+    "message_label": "Write your message",
+    "message_placeholder": "Enter your message",
+    "submit_button": "SUBMIT",
+    "image_alt": "mattress",
+    
+        "faq_title": "Frequently Asked Questions",
+        "faq_question_1": "What is the quality?",
+        "faq_answer_1": "Our mattresses are made from high-quality materials and are manufactured under strict quality control.",
+        "faq_question_2": "How much does the mattress cost?",
+        "faq_answer_2": "Prices vary depending on the model. You can get more information on the product page or by contacting customer support.",
+        "faq_question_3": "Is it reliable?",
+        "faq_answer_3": "Yes, our mattresses are tested for quality and reliability.",
+        "faq_question_4": "Where is it made?",
+        "faq_answer_4": "Our mattresses are made in high-quality production factories.",
+        "faq_question_5": "What is the quality?",
+        "faq_answer_5": "Each mattress is produced under strict quality control and is certified."
+      
+      
+  
+  
+}

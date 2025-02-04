@@ -1,31 +1,26 @@
 import React from "react";
 import "./Main.css";
 import matras from "../assets/galery.png";
+import { useTranslation } from "react-i18next";  // Importing useTranslation hook
 
 function Main() {
+  const { t } = useTranslation();  // Using useTranslation hook to access translation function
+
   return (
     <div>
       <div className="Main">
         <div className="Main-container">
-          <h1 className="main-title">A’lo uyqu kafolati</h1>
-          <p className="main-titles">
-            Sizning qulayligingiz - bizning mas’uliyatimiz
-          </p>
+          <h1 className="main-title">{t("excellent_sleep")}</h1>  {/* Translated text */}
+          <p className="main-titles">{t("comfort_responsibility")}</p>  {/* Translated text */}
           <p className="main-text">
-            Yetkazib berishni toliq o’z zimmamizga olamiz. Ideal uyqu uchun
-            yaratilgan matraslar o’z egalarini kutmoqda. WestMatres har bir
-            mahsulot uchun sifat kafolatini ta’minlaydi.
+            {t("delivery_guarantee")} {t("ideal_sleep_matras")} {t("quality_guarantee")}
           </p>
         </div>
         <img src={matras} alt="matras" width={"100%"} className="main-images" />
       </div>
       <div className="main-section">
-        <h1 className="main-section-title">Bizning mahsulotlarimiz</h1>
-        <p className="main-section-text">
-          Bizning vazifamiz hamma uchun qulay uyquni ta'minlashdir. Siz uchun
-          mukammal matras yaratish uchun biz faqat eng yaxshi materiallar va
-          zamonaviy texnologiyalardan foydalanamiz!
-        </p>
+        <h1 className="main-section-title">{t("our_products")}</h1>  {/* Translated text */}
+        <p className="main-section-text">{t("perfect_matras_creation")}</p>  {/* Translated text */}
       </div>
     </div>
   );

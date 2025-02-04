@@ -58,11 +58,22 @@ function Section() {
 
         <ul className="section-navbares">
           {paginatedData.map((product) => (
-            <li
-              key={product.id}
-              className="section-navbares-list"
-              style={{ backgroundImage: `url(${product.img1})` }}
-            >
+           <li
+           key={product.id}
+           className="section-navbares-list"
+           style={{
+             background: `linear-gradient(180deg, rgba(2, 3, 27, 0) 0%, #041444 100%), url(${product.img1})`,
+             backgroundSize: "cover",
+             backgroundPosition: "top center",
+             backgroundRepeat: "no-repeat",
+             backgroundBlendMode: "multiply", // Gradient va rasmni uyg‘unlashtirish
+           }}
+         >
+
+         
+            
+          
+          
               <p className="section-navbares-list-title">{product.title}</p>
               <b className="section-navbares-list-text">{product.price}</b>
               <br />
@@ -74,6 +85,7 @@ function Section() {
               >
                 Batafsil
               </button>
+              <p className="section-product-siz">{product.size}</p>
             </li>
           ))}
         </ul>

@@ -65,7 +65,55 @@ color: brown;
   background: rgba(14, 33, 99, 1);
   position: relative;
 }
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: 100vh;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.3);
+}
 
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  align-self: flex-end;
+}.language-dropdownes {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  width: 90px;
+  padding: 4px 12px 4px 12px;
+  color: white;
+  height: 30px;
+  margin-top: 10px;
+  background: rgba(14, 33, 99, 1);
+  position: relative;
+}
+.modal-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.modal-list li {
+  margin-bottom: 15px;
+}
+
+.modal-list a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 18px;
+}
 .language-dropdown img {
   margin-right: 8px;
 }

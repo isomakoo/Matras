@@ -1,31 +1,28 @@
 import React from "react";
 import "./About.css";
-import logoabtt from '../assets/logoabt.png'
+import logoabtt from '../assets/logoabt.png';
 import { useNavigate } from "react-router-dom";
+import { useTranslation } from "react-i18next";  // Importing useTranslation hook
 
 function Aboutheader() {
-  const navigater=useNavigate()
-  const handlematras=()=>{
-    window.location.href = '/product'
-  }
+  const { t } = useTranslation();  // Using useTranslation hook to access translation function
+  const navigate = useNavigate();
+
+  const handlematras = () => {
+    window.location.href = '/product';
+  };
+
   return (
     <>
       <div className="Aboutheader">
         <div className="About-container">
           <div className="Aboutheader-list">
-          <h1 className="Aboutheader-title">Biz  haqimizda</h1>
-          <p className="Aboutheader-text">
-            Sizning Qulayligingiz, Bizning Mahoratimiz
-          </p>
-          <p className="Aboutheader-textes">
-            WestMatresda biz yaxshi tun uyqusi ajoyib kunning asosi ekanligiga
-            ishonamiz. Shuning uchun biz o’zimizni o’zgacha qulaylik va
-            qo’llab-quvvatlashni ta’minlaydigan yuqori sifatli matraslar va
-            yotoqxona anjomlarini ishlab chiqarishga bag’ishlaganmiz.
-          </p>
-          <button className="Aboutheader-btnes" onClick={handlematras}>Matraslarni ko’rish</button>
+            <h1 className="Aboutheader-title">{t("about_title")}</h1>  {/* Translation for title */}
+            <p className="Aboutheader-text">{t("about_subtitle")}</p>  {/* Translation for subtitle */}
+            <p className="Aboutheader-textes">{t("about_description")}</p>  {/* Translation for description */}
+            <button className="Aboutheader-btnes" onClick={handlematras}>{t("view_mattresses")}</button>  {/* Translation for button */}
           </div>
-          <img src={logoabtt} alt="rasm"  className="aboutheader-img"/>
+          <img src={logoabtt} alt="rasm" className="aboutheader-img" />
         </div>
       </div>
     </>

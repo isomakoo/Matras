@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
 import './Contact.css';
 import contactimg from '../assets/contactimages1.png';
-import { toast, ToastContainer } from 'react-toastify'; // ToastContainer ni import qilish
-import 'react-toastify/dist/ReactToastify.css'; // Toastify uchun kerakli stillar
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { useTranslation } from 'react-i18next';  // Import useTranslation
 
 function Contacthero() {
+  const { t } = useTranslation();  // Access the translation function
+
   const [formData, setFormData] = useState({
     name: '',
     phone: '',
@@ -23,27 +26,23 @@ function Contacthero() {
     e.preventDefault();
 
     const TELEGRAM_BOT_TOKEN = '7470121724:AAF3hMX_ihKKbXPyBSmby8X3NcDr-SF5si0'; // Telegram bot token
-    const CHAT_ID = '6914657739'; // Telegram chat ID (botga yuboriladigan chat ID)
+    const CHAT_ID = '6914657739'; // Telegram chat ID
 
-    // Telegram botga yuboriladigan xabar
     const message = `
-      Ism: ${formData.name}
-      Telefon: ${formData.phone}
-      Tavsif: ${formData.description}
+      ${t("name")}: ${formData.name}
+      ${t("phone")}: ${formData.phone}
+      ${t("message")}: ${formData.description}
     `;
 
-    // Telegram API URL
     const url = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`;
 
-    // Yuboriladigan ma'lumotlar
     const data = {
       chat_id: CHAT_ID,
       text: message,
-      parse_mode: 'HTML', // HTML formatini ishlatish (yoki 'Markdown'ni ham tanlashingiz mumkin)
+      parse_mode: 'HTML',
     };
 
     try {
-      // Telegramga so'rov yuborish
       const response = await fetch(url, {
         method: 'POST',
         headers: {
@@ -53,17 +52,17 @@ function Contacthero() {
       });
 
       if (response.ok) {
-        toast.success('Ariza yuborildi! Tez Orada Mutaxasislar siz bilan Boglanishadi'); // Success message
+        toast.success(t('form_success')); // Using translation for success message
         setFormData({
           name: '',
           phone: '',
           description: ''
         });
       } else {
-        toast.error('Xatolik yuz berdi!'); // Error message
+        toast.error(t('form_error')); // Using translation for error message
       }
     } catch (error) {
-      toast.error('Xatolik yuz berdi!'); // Error message
+      toast.error(t('form_error')); // Using translation for error message
     }
   };
 
@@ -72,19 +71,19 @@ function Contacthero() {
       <div className='contacthero'>
         <div className="contacther-container">
           <form onSubmit={handleSubmit} className='contact-form'>
-            <label htmlFor="name" className='contact-label'>Ismingizni kiriting</label>
+            <label htmlFor="name" className='contact-label'>{t("name_label")}</label>
             <input
               type="text"
               className='contact-inp'
               id="name"
               name="name"
-              placeholder="Ism Familiyani kiriting"
+              placeholder={t("name_placeholder")}
               value={formData.name}
               onChange={handleChange}
               required
             /> <br />
 
-            <label htmlFor="phone" className='contact-label'>Telefon raqam</label>
+            <label htmlFor="phone" className='contact-label'>{t("phone_label")}</label>
             <input
               type="tel"
               className='contact-inp'
@@ -96,26 +95,25 @@ function Contacthero() {
               required
             /> <br />
 
-            <label htmlFor="description" className='contact-label'>Habaringizni yozing</label> <br />
+            <label htmlFor="description" className='contact-label'>{t("message_label")}</label> <br />
             <textarea
               className='contact-inpus'
               id="description"
               name="description"
-              placeholder="Habaringizni kiriting"
+              placeholder={t("message_placeholder")}
               value={formData.description}
               onChange={handleChange}
               required
             /> <br />
 
-            <button type="submit" className='contact-btn'>JO’NATISH</button>
+            <button type="submit" className='contact-btn'>{t("submit_button")}</button>
           </form>
 
-          <img src={contactimg} alt="matras" width={486} height={619} className='contact-img' />
+          <img src={contactimg} alt={t("image_alt")} width={486} height={619} className='contact-img' />
         </div>
       </div>
 
-      {/* ToastContainer component is necessary to render the toasts */}
-      <ToastContainer /> {/* To'g'ri yozilgan ToastContainer */}
+      <ToastContainer />
     </div>
   );
 }

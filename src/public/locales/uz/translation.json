@@ -1,0 +1,85 @@
+{
+  "home": "Bosh sahifa",
+  "about": "Biz haqimizda",
+  "product": "Mahsulotlar",
+  "contact": "Bog'lanish",
+  "faq": "FAQ",
+  "navbar": {
+    "slogan": "Sizning qulayligingiz - bizning zimmamizda",
+    "description": "Yetkazib berishni to‘liq o‘z zimmamizga olamiz. Ideal uyqu uchun yaratilgan matraslar o‘z egalarini kutmoqda. WestMatras har bir mahsulot uchun sifat kafolatini ta’minlaydi.",
+    "mattresses": "Matraslar",
+    "contact": "Bog‘lanish"
+  },
+
+  "excellent_sleep": "A’lo uyqu kafolati",
+  "comfort_responsibility": "Sizning qulayligingiz - bizning mas’uliyatimiz",
+  "delivery_guarantee": "Yetkazib berishni toliq o’z zimmamizga olamiz.",
+  "ideal_sleep_matras": "Ideal uyqu uchun yaratilgan matraslar o’z egalarini kutmoqda.",
+  "quality_guarantee": "WestMatres har bir mahsulot uchun sifat kafolatini ta’minlaydi.",
+  "our_products": "Bizning mahsulotlarimiz",
+  "perfect_matras_creation": "Bizning vazifamiz hamma uchun qulay uyquni ta'minlashdir. Siz uchun mukammal matras yaratish uchun biz faqat eng yaxshi materiallar va zamonaviy texnologiyalardan foydalanamiz!",
+  "footer_description": "Biz sifatli matras ishlab chiqarishga ixtisoslashgan Westmatres kompaniyasimiz. Bizning vazifamiz hamma uchun qulay uyquni ta'minlashdir. Siz uchun mukammal matras yaratish uchun biz faqat eng yaxshi materiallar va zamonaviy texnologiyalardan foydalanamiz!",
+  "footer-home": "Bosh sahifa",
+  "about_us": "Biz haqimizda",
+  "footer-product": "Mahsulotlar",
+  "contact_us": "Biz bilan bog'lanish",
+  "footer-faq": "FAQ",
+
+  "about_title": "Biz haqimizda",
+  "about_subtitle": "Sizning Qulayligingiz, Bizning Mahoratimiz",
+  "about_description": "WestMatresda biz yaxshi tun uyqusi ajoyib kunning asosi ekanligiga ishonamiz. Shuning uchun biz o’zimizni o’zgacha qulaylik va qo’llab-quvvatlashni ta’minlaydigan yuqori sifatli matraslar va yotoqxona anjomlarini ishlab chiqarishga bag’ishlaganmiz.",
+  "view_mattresses": "Matraslarni ko’rish",
+
+  "about_history_title": "Bizning tariximiz",
+  "about_history_description": "WestMatresda biz yaxshi tun uyqusi ajoyib kunning asosi ekanligiga ishonamiz. Shuning uchun biz o’zgacha qulaylik va qo’llab-quvvatlashni ta’minlaydigan yuqori sifatli matraslar va yotoqxona anjomlarini ishlab chiqarishga bag’ishlanganmiz. Biz shunchaki mahsulot sotmayapmiz; biz sizning farovonligingizga sarmoya kirityapmiz.",
+
+  "offer_title": "Taklifimiz",
+  "offer_description": "Matraslar va yotoq anjomlari tanlovimizni ko’zdan kechiring va WestMatresning sizning uyquingizga qanday ta’sir ko’rsatishini bilib o’ling. Agar sizda biron bir savol bo’lsa, iltimos, do’stona jamoamiz bilan bog’laning. Biz sizga yaxshi uyqu sari yo’lingizda yordam berishga tayyormiz.",
+  
+    "sidebar_description": "Biz sifatli matras ishlab chiqarishga ixtisoslashgan Westmatres kompaniyasimiz. Bizning vazifamiz hamma uchun qulay uyquni ta'minlashdir. Siz uchun mukammal matras yaratish uchun biz faqat eng yaxshi materiallar va zamonaviy texnologiyalardan foydalanamiz!",
+    "sidebar_values_title": "Qadriyatlarimiz",
+    "quality_title": "Yuqori sifat",
+    "quality_description": "Biz yuqori sifatli uyquni ta'minlash uchun matraslarimizni yaratish jarayonida faqat eng yaxshi materiallardan foydalanamiz.",
+    "comfort_title": "Qulay komfort",
+    "comfort_description": "Bizning matraslarimiz maksimal qulaylik va qulaylikni ta'minlash uchun mijozlarning barcha ehtiyojlarini qondirishga qaratilgan.",
+    "delivery_title": "Tezkor yetkazib berish",
+    "delivery_description": "Biz matraslarni to‘g‘ridan-to‘g‘ri sizga 1 ishchi kunida yetkazib berishni kafolatlaymiz.",
+    
+        "contact_title": "Biz bilan bog’lanish uchun",
+        "email_label": "Email manzilingiz:",
+        "contact_number_label": "Murojat uchun Raqamkar:",
+        "address_label": "Bizning manzil:",
+        "address": "Yunusobod tumani, Yangi Yunusobod ko‘chasi, 13-kvartira, 45-uy, 14-xonadon",
+        
+            "name": "Ism",
+            "phone": "Telefon",
+            "message": "Tavsif",
+            "form_success": "Ariza yuborildi! Tez orada mutaxassislar siz bilan bog‘lanishadi.",
+            "form_error": "Xatolik yuz berdi!",
+            "name_label": "Ismingizni kiriting",
+            "name_placeholder": "Ism Familiyani kiriting",
+            "phone_label": "Telefon raqam",
+            "message_label": "Habaringizni yozing",
+            "message_placeholder": "Habaringizni kiriting",
+            "submit_button": "JO’NATISH",
+            "image_alt": "matras",
+            
+                "faq_title": "Tez-tez so'raladigan savollar",
+                "faq_question_1": "Sifat darajasi qanday?",
+                "faq_answer_1": "Bizning matraslar yuqori sifatli materiallardan tayyorlanadi va mukammal sifat nazorati ostida ishlab chiqariladi.",
+                "faq_question_2": "“Matras nomi” necha pul turadi?",
+                "faq_answer_2": "Narxlar modellarga qarab o'zgaradi. Batafsil ma'lumotni mahsulotlar sahifasida yoki mijozlarga xizmat ko'rsatish bo'limida olishingiz mumkin.",
+                "faq_question_3": "Ishonchlimi?",
+                "faq_answer_3": "Ha, bizning matraslar sifat va mustahkamlik jihatidan sinovdan o'tkazilgan va ishonchli hisoblanadi.",
+                "faq_question_4": "Qayerda ishlab chiqarilgan?",
+                "faq_answer_4": "Matraslarimiz yuqori sifatli ishlab chiqarish zavodlarida ishlab chiqariladi.",
+                "faq_question_5": "Sifat darajasi qanday?",
+                "faq_answer_5": "Har bir matras qat'iy sifat nazorati ostida ishlab chiqariladi va sertifikatlangan."
+              
+              
+          
+          
+      
+      
+  
+}

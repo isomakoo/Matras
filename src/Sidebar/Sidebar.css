@@ -63,6 +63,7 @@ opacity: 0px;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     margin: 0 auto;
+    color: rgba(14, 33, 99, 1);
     margin-top: 150px;  
 }
 .sidebar-navbar-list-title{
@@ -138,7 +139,7 @@ opacity: 0px;
         width: 700px;
   }
     .sidebar-title{
-        font-size: 76px;
+        font-size: 70px;
         line-height: 88px;
         margin-top: 30px;
     }

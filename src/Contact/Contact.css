@@ -53,7 +53,7 @@
   color: rgba(108, 108, 108, 1);
   width: 100%; /* 100% o'lchamdagi kenglik */
   max-width: 570px; /* Maksimal kenglikni 500px bilan cheklash */
-  max-height: 100px; /* Balandlikni 150px ga cheklash */
+  max-height: 150px; /* Balandlikni 150px ga cheklash */
   resize: vertical; /* Foydalanuvchi maydonni faqat vertikal yo'nalishda o'zgartirishi mumkin */
   padding-left: 20px;
 }
@@ -68,7 +68,7 @@
   color: rgba(14, 33, 99, 1);
 }
 .contact-btn {
-  width: 608px;
+  width: 595px;
   border: transparent;
   height: 62px;
   min-width: 250px;

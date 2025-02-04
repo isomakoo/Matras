@@ -14,21 +14,25 @@
     
 }
 .main-title{
-    font-family: Italianno;
-    font-size: 96px;
-    font-weight: 400;
-    margin-top: 170px;
-    line-height: 60px;
-    text-align: center;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    color: #0E2163;   
+width: 100%;
+height: 120px ; 
+font-family: Italianno;
+font-size: 96px;
+margin-bottom: 0;
+font-weight: 400;
+line-height: 120px;
+text-align: center;
+color: #0E2163;   
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+   
 }
 .main-titles{
     font-family: Battambang;
     font-size: 36px;
     font-weight: 400;
     line-height: 30.04px;
+    margin-bottom: 0;
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
@@ -48,14 +52,16 @@
     margin-top: 150px;
 }
 .main-section-title{  
+    width: 100%;
+    height: 120px;
     font-family: Italianno;
     font-size: 96px;
     font-weight: 400;
-    margin-top: 150px;
-    line-height: 30px;
+    line-height: 120px;
+    margin-bottom: 0;
     text-align: center;
     text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+    text-decoration-skip-ink: none;    
     color: #0E2163;
     
 }
@@ -65,6 +71,7 @@
     font-weight: 300;
     line-height: 35px;
     text-align: center;
+    margin-bottom: 0;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     width: 1044px;

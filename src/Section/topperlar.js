@@ -13,6 +13,7 @@ export const topperlar = [
     label: "Super yumshoq qulaylik bilan uxlang.",
     text: "Ushbu topper tanangizga moslashib, bosimni kamaytiradi.",
     textes: "Premium Comfort bilan orom oling.",
+    size: "Twin - 38”W x 75”L x 14”H"
   },
   {
     id: 2,
@@ -24,6 +25,7 @@ export const topperlar = [
     label: "Bosimni kamaytiruvchi memory foam texnologiyasi.",
     text: "Issiqlikka moslashuvchi material yotish qulayligini oshiradi.",
     textes: "O'zingizga mos keladigan shaklga ega topper.",
+    size: "Twin - 38”W x 75”L x 14”H"
   },
   {
     id: 3,
@@ -35,6 +37,7 @@ export const topperlar = [
     label: "Extra qulaylik va nafislik.",
     text: "Balandligi 5 sm bo'lib, optimal yostiq qo‘llab-quvvatlash beradi.",
     textes: "Luxury Plush bilan o‘ziga xos yotish hissini his eting.",
+    size: "Twin - 38”W x 75”L x 14”H"
   },
   {
     id: 4,
@@ -46,6 +49,7 @@ export const topperlar = [
     label: "Ortopedik yordam va qo‘llab-quvvatlash.",
     text: "Ushbu topper bel og‘rig‘ini kamaytirishga yordam beradi.",
     textes: "Ortopedik qo‘llab-quvvatlash bilan yaxshiroq uxlang.",
+    size: "Twin - 38”W x 75”L x 14”H"
   },
   {
     id: 5,
@@ -57,6 +61,7 @@ export const topperlar = [
     label: "Sovutuvchi gel qatlami bilan yozgi qulaylik.",
     text: "Haroratni nazorat qilib, haddan tashqari issiqlikni oldini oladi.",
     textes: "Sovutuvchi gel bilan tetik uyg'oning.",
+    size: "Twin - 38”W x 75”L x 14”H"
   },
   {
     id: 6,
@@ -68,6 +73,7 @@ export const topperlar = [
     label: "Ekologik toza materiallardan tayyorlangan.",
     text: "Bakteriyalarga qarshi va allergiyaga mos keladi.",
     textes: "Tabiiy va sog‘lom uyqu uchun ideal tanlov.",
+    size: "Twin - 38”W x 75”L x 14”H"
   },
   {
     id: 7,
@@ -79,6 +85,7 @@ export const topperlar = [
     label: "G‘oz patlari kabi yumshoq yostiqcha.",
     text: "Yuqori sifatli materiallar bilan qulaylik ta'minlaydi.",
     textes: "Ultra yumshoqlik bilan orom oling.",
+    size: "Twin - 38”W x 75”L x 14”H"
   },
   {
     id: 8,
@@ -90,6 +97,7 @@ export const topperlar = [
     label: "Ikki qatlamli texnologiya bilan qo‘llab-quvvatlash.",
     text: "Memory foam va buloqli qatlam kombinatsiyasi.",
     textes: "Hybrid texnologiya bilan mukammal yotish tajribasi.",
+    size: "Twin - 38”W x 75”L x 14”H"
   },
   {
     id: 9,
@@ -101,5 +109,6 @@ export const topperlar = [
     label: "Aloe Vera ekstrakti bilan namlantiruvchi ta’sir.",
     text: "Tabiiy shifobaxsh xususiyatlarga ega material.",
     textes: "Sog‘lom uyqu uchun Aloe Vera bilan maxsus topper.",
+    size: "Twin - 38”W x 75”L x 14”H"
   }
 ];
