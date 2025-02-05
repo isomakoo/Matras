@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Faq.css';
 import { useTranslation } from 'react-i18next'; // Import useTranslation
+import { FaChevronDown, FaChevronUp } from 'react-icons/fa'; // Import icons
 
 function FAQ() {
   const { t } = useTranslation();  // Access the translation function
@@ -26,13 +27,12 @@ function FAQ() {
       question: t("faq_question_5"),
       answer: t("faq_answer_5")
     }
-    // Add more translated questions and answers if needed
   ];
 
   const [activeIndex, setActiveIndex] = useState(null);
 
   const toggleAnswer = (index) => {
-    setActiveIndex(activeIndex === index ? null : index);
+    setActiveIndex(activeIndex === index ? null : index); // Toggle between active/inactive state
   };
 
   return (
@@ -41,12 +41,18 @@ function FAQ() {
       <div className="faq-list">
         {faqData.map((faq, index) => (
           <div key={index} className="faq-item">
-            <div className="faq-question" onClick={() => toggleAnswer(index)}>
-              {faq.question}
+            <div 
+              className={`faq-question ${activeIndex === index ? 'active' : ''}`} 
+              onClick={() => toggleAnswer(index)} // Toggle on question click
+            >
+              <span>{faq.question}</span>
+              <span className="faq-icon">
+                {activeIndex === index ? <FaChevronUp /> : <FaChevronDown />}  {/* Icons */}
+              </span>
             </div>
-            {activeIndex === index && (
-              <div className="faq-answer">{faq.answer}</div>
-            )}
+            <div className={`faq-answer ${activeIndex === index ? 'open' : ''}`}>
+              {faq.answer}
+            </div>
           </div>
         ))}
       </div>

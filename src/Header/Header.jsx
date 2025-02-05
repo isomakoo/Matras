@@ -4,9 +4,9 @@ import { Link, useLocation } from "react-router-dom";
 import { MdOutlineMenu } from "react-icons/md";
 import "./Header.css";
 import logo1 from "../assets/Logo (4).png";
-import uz from "../assets/UZ.png";
-import ru from "../assets/RU.png";
-import eng from "../assets/GB.png";
+import uz from "../assets/language.png";
+import ru from "../assets/language.png";
+import eng from "../assets/language.png";
 
 function Header() {
   const { t, i18n } = useTranslation();
@@ -66,21 +66,19 @@ function Header() {
             src={selectedLang === "uz" ? uz : selectedLang === "ru" ? ru : eng}
             alt="Selected Language"
             width={20}
-            height={15}
+            height={20}
           />
           <span>{selectedLang === "uz" ? "Uzbek" : selectedLang === "ru" ? "Russian" : "English"}</span>
           {isDropdownOpen && (
             <div className="dropdown-options">
               <div onClick={() => handleLanguageChange("uz")} className="dropdown-option">
-                <img src={uz} alt="Uzbek Flag" width={20} height={15} />
                 Uzbek
               </div>
               <div onClick={() => handleLanguageChange("ru")} className="dropdown-option">
-                <img src={ru} alt="Russian Flag" width={20} height={15} />
+              
                 Russian
               </div>
               <div onClick={() => handleLanguageChange("en")} className="dropdown-option">
-                <img src={eng} alt="English Flag" width={20} height={15} />
                 English
               </div>
             </div>
