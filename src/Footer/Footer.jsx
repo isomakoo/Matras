@@ -58,13 +58,13 @@ function Footer() {
               </nav>
               <img src={phone} alt="" className="footer-img" />
             </span> <br />
-            <a href="https://t.me/kurbonov_me" className="footer-link">
+            <a href="https://t.me/westmatres_uz" className="footer-link">
               westmatres <img src={instagram} alt="instagram" className='footer-images' />
             </a> <br />
-            <a href="https://t.me/kurbonov_me" className="footer-link">
+            <a href="https://t.me/westmatres_uz" className="footer-link">
               westmatres_uz <img src={telegram} alt="telegram" className='footer-images' />
             </a> <br />
-            <a href="mailto:support@westmatres.com" className="footer-link">
+            <a href="mailto:@westmatres.com" className="footer-link">
               support@westmatres.com <img src={email} alt="email" className="footer-images" />
             </a>
           </div>
