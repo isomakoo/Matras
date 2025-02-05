@@ -31,7 +31,7 @@ function Content() {
                 width: "320px",
                 height: "500px",
                 backgroundImage: `url(${images3})`,
-                backgroundColorgit: "rgba(14, 33, 99, 0.85)", 
+                background: "rgba(14, 33, 99, 0.85)", 
                 backgroundSize: "cover",
                 backgroundPosition: "center",
               }}
