@@ -7,6 +7,8 @@ import logo1 from "../assets/Logo (4).png";
 import uz from "../assets/language.png";
 import ru from "../assets/language.png";
 import eng from "../assets/language.png";
+import btn from '../assets/Vector.png'
+import logos from '../assets/Logo (7).png'
 
 function Header() {
   const { t, i18n } = useTranslation();
@@ -41,6 +43,9 @@ function Header() {
   return (
     <div className="header">
       <div className="header-container">
+      <button className="header-btn" onClick={() => setIsModalOpen(true)}>
+          <img src={btn} alt="btn" />
+        </button>
         <img src={logo1} alt="logo" className="header-logo" />
         <ul className="header-list">
           <li className="header-listes">
@@ -86,47 +91,21 @@ function Header() {
         </div>
 
         {/* Menu ochuvchi tugma */}
-        <button className="header-btn" onClick={() => setIsModalOpen(true)}>
-          <MdOutlineMenu size={30} color="white" />
-        </button>
+        
       </div>
 
       {/* Modal */}
       {isModalOpen && (
         <div className="modal">
+           <img src={logos} alt="WEST mASTER" width={133} height={21}/>
           <button className="close-btn" onClick={() => setIsModalOpen(false)}>×</button>
           <ul className="modal-list">
-            <li><Link to="/home" onClick={() => setIsModalOpen(false)}>{t("home")}</Link></li>
-            <li><Link to="/about" onClick={() => setIsModalOpen(false)}>{t("about")}</Link></li>
-            <li><Link to="/product" onClick={() => setIsModalOpen(false)}>{t("product")}</Link></li>
-            <li><Link to="/contact" onClick={() => setIsModalOpen(false)}>{t("contact")}</Link></li>
-            <li><Link to="/faq" onClick={() => setIsModalOpen(false)}>{t("faq")}</Link></li>
+            <li><Link to="/home" className="modal-link" onClick={() => setIsModalOpen(false)}>{t("home")}</Link></li>
+            <li><Link to="/about"className="modal-link" onClick={() => setIsModalOpen(false)}>{t("about")}</Link></li>
+            <li><Link to="/product" className="modal-link" onClick={() => setIsModalOpen(false)}>{t("product")}</Link></li>
+            <li><Link to="/contact" className="modal-link" onClick={() => setIsModalOpen(false)}>{t("contact")}</Link></li>
+            <li><Link to="/faq" className="modal-link" onClick={() => setIsModalOpen(false)}>{t("faq")}</Link></li>
           </ul>
-          <div className="language-dropdownes" onClick={() => setIsDropdownOpen(!isDropdownOpen)}>
-            <img
-              src={selectedLang === "uz" ? uz : selectedLang === "ru" ? ru : eng}
-              alt="Selected Language"
-              width={20}
-              height={15}
-            />
-            <span>{selectedLang === "uz" ? "Uzbek" : selectedLang === "ru" ? "Russian" : "English"}</span>
-            {isDropdownOpen && (
-              <div className="dropdown-options">
-                <div onClick={() => handleLanguageChange("uz")} className="dropdown-option">
-                  <img src={uz} alt="Uzbek Flag" width={20} height={15} />
-                  Uzbek
-                </div>
-                <div onClick={() => handleLanguageChange("ru")} className="dropdown-option">
-                  <img src={ru} alt="Russian Flag" width={20} height={15} />
-                  Russian
-                </div>
-                <div onClick={() => handleLanguageChange("en")} className="dropdown-option">
-                  <img src={eng} alt="English Flag" width={20} height={15} />
-                  English
-                </div>
-              </div>
-            )}
-          </div>
         </div>
       )}
     </div>

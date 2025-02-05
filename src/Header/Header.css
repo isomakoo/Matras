@@ -82,7 +82,7 @@
 .modal {
   position: fixed;
   top: 0;
-  right: 0;
+  left: 0;
   width: 200px;
   height: 100vh;
   background-color: white;
@@ -95,10 +95,17 @@
 }
 
 .close-btn {
+  width: 28px !important;
+  height: 28px !important;
+  position: relative;
+  top: -40px;
+  margin: 0;
+   color: rgba(14, 33, 99, 1);
+  gap: 0px;
+  opacity: 0px;  
   background: none;
   border: none;
-  font-size: 24px;
-  color: rgb(0, 0, 0);
+  font-size: 54px;
   cursor: pointer;
   align-self: flex-end;
 }.language-dropdownes {
@@ -124,9 +131,19 @@
 }
 
 .modal-list a {
-  color: rgb(0, 0, 0);
-  text-decoration: none;
+  font-family: Battambang;
   font-size: 18px;
+  font-weight: 300;
+  line-height: 27px;
+  text-align: left;
+  text-decoration: none;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-underline-offset: 9%;
+  text-decoration-thickness: 4%;
+  text-underline-position: from-font;
+   color: rgba(14, 33, 99, 1);
+  
 }
 .language-dropdown img {
   margin-right: 8px;
@@ -225,10 +242,12 @@
   .header-container {
     max-width: 600px; /* Katta ekranda 3ta, kichik ekranda 1ta */
     height: auto;
+    display: flex;
+    justify-content: space-between;
   }
-  .language-dropdown{
+   .header-logo{
     display: none;
-  }
+   }
   .header-list{
    display: none;
   }
@@ -236,10 +255,8 @@
     display: block;
     height: 30px;
     width: 40px;
-    margin-top: 20px;
+    margin-top: 20px !important;
     border: none;
-    background: rgba(14, 33, 99, 1);
-
   }
   .header-logo{
     width: 230px !important;

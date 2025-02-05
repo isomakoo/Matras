@@ -113,7 +113,12 @@ text-decoration-skip-ink: none;
     margin-top: 100px;
     }
     .main-title,.main-section-title{
-        font-size: 84px;
+        font-size: 74px;
+        width: 90%;
+        margin-top: 30px !important;
+        margin: 0 auto;
+        height: auto;
+        line-height: 74px;
     }
     .main-section-text{
      width: 90%;
@@ -145,8 +150,46 @@ text-decoration-skip-ink: none;
     .Main-container{
       width: 400px;
     }
+    .main-titles{
+        margin: 0 auto;
+        height: 29px;   
+     font-size: 16px !important;
+     line-height: 16px !important;
+    }
     .main-section-title, .main-title{
-    font-size: 66px;
+        width: 90%;
+        margin: 0 auto;
+        line-height: 48px;
+       height: auto;
+    font-size: 48px;
+    margin-top: 20px !important;
+    }
+    .main-text{
+        font-family: Battambang;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 25.29px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        width: 90%;
+        margin: 0 auto;
+        height: auto;        
+    }
+    .main-images{
+        height: 240px !important;
+    }
+    .main-section-text{
+    width: 90% !important;
+    height: auto !important;
+    font-family: Battambang;
+    font-size: 14px !important;
+    font-weight: 300;
+    line-height: 25.29px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
     }
 }
 @media (max-width: 400px) {
