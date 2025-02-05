@@ -54,7 +54,7 @@ function Footer() {
             <span className="footer-linkeses">
               <nav className="footer-nav">
                 <a href="tel:+998783337979" className="footer-link-nav">+998 78 333 79 79</a> <br />
-                <a href="tel:+998783337979" className="footer-link-nav">+998 78 333 79 79</a>
+                <a href="tel:+998783337979" className="footer-link-nav">+998 78 840 79 79</a>
               </nav>
               <img src={phone} alt="" className="footer-img" />
             </span> <br />

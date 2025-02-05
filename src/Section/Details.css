@@ -354,17 +354,13 @@
 
 .custom-swiper-button-prev,
 .custom-swiper-button-next {
-  background-color: #727272;
-  color: white;
+  background-color: #ffffff;
+  color: rgba(14, 33, 99, 1);
+
   padding: 10px 15px;
   border-radius: 15px;
   cursor: pointer;
   font-size: 20px;
-}
-
-.custom-swiper-button-prev:hover,
-.custom-swiper-button-next:hover {
-  background-color: #0056b3;
 }
 
 
