@@ -71,7 +71,7 @@
   display: flex;
   align-items: center;
   cursor: pointer;
-  width: 68px;
+  width: 75px;
   padding: 4px 12px 4px 12px;
   color: white;
   height: 30px;
@@ -112,7 +112,7 @@
   display: flex;
   align-items: center;
   cursor: pointer;
-  width: 90px;
+  width: 100px;
   padding: 4px 12px 4px 12px;
   color: white;
   height: 30px;
@@ -155,7 +155,7 @@
   left: 0;
   background: rgba(14, 33, 99, 1);
   border: 1px solid #ccc;
-  width: 90px;
+  width: 98px;
   z-index: 10;
 }
 

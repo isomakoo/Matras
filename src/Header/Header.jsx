@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import { Link, useLocation } from "react-router-dom";
 import { MdOutlineMenu } from "react-icons/md";
 import "./Header.css";
-import logo1 from "../assets/Logo (4).png";
+import logo1 from "../assets/Logo.svg";
 import uz from "../assets/language.png";
 import ru from "../assets/language.png";
 import eng from "../assets/language.png";

@@ -1,114 +1,152 @@
 import img1 from './images/images111.png';
 import img2 from './images/Rectangle 12.png';
 import img3 from './images/Rectangle 13.png';
+import img4 from './images/Rectangle 12.png';
+import img5 from './images/Rectangle 13.png';
 
 export const kurpalar = [
   {
-    id: 1,
+    id: 24,
     title: "The Royal",
     price: "$1249",
     img1: img1,
     img2: img2,
     img3: img3,
+    img4: img4,
+    img5: img5,
     label: "Royal matrasimiz bilan qirollik uyqusini his eting.",
     text: "Yuqori sifatli po’lat buloqlar va mustahkamlangan qirralar bilan uzoq muddatli qo‘llab-quvvatlash ta’minlaydi.",
     textes: "Qirollik darajasidagi qulaylik.",
-    size: "Twin - 38”W x 75”L x 14”H"
+    size: "Twin - 38”W x 75”L x 14”H",
+    additional1: "Matras ichidagi maxsus qatlamlar energiyani qaytaradi.",
+    additional2: "Uyqu davomida tananing ideal holatini saqlaydi."
   },
   {
-    id: 2,
+    id: 25,
     title: "Premium Comfort",
     price: "$1149",
     img1: img1,
     img2: img2,
     img3: img3,
+    img4: img4,
+    img5: img5,
     label: "Extra qulaylik va yumshoqlik.",
     text: "Ushbu matras tanaga moslashib, optimal bosim taqsimotini ta’minlaydi.",
     textes: "Ortopedik qulaylik bilan sog‘lom uyqu.",
-    size: "Twin - 38”W x 75”L x 14”H"
+    size: "Twin - 38”W x 75”L x 14”H",
+    additional1: "Matras chekkalari mustahkamlangan dizaynga ega.",
+    additional2: "Orqa va bo'yin og'riqlarini kamaytirishga yordam beradi."
   },
   {
-    id: 3,
+    id: 26,
     title: "Memory Foam",
     price: "$999",
     img1: img1,
     img2: img2,
     img3: img3,
+    img4: img4,
+    img5: img5,
     label: "Shaxsiy moslashuv va bosimni kamaytirish.",
     text: "Issiqlik ta’sirida shaklini o‘zgartirib, maksimal qulaylik yaratadi.",
     textes: "Memory foam bilan ideal yotish holati.",
-    size: "Twin - 38”W x 75”L x 14”H"
+    size: "Twin - 38”W x 75”L x 14”H",
+    additional1: "Tana haroratiga mos ravishda yumshaydi.",
+    additional2: "Matrasda uzoq vaqt davomida iz qoldirmaydi."
   },
   {
-    id: 4,
+    id: 27,
     title: "Ortho Care",
     price: "$899",
     img1: img1,
     img2: img2,
     img3: img3,
+    img4: img4,
+    img5: img5,
     label: "Ortopedik qo‘llab-quvvatlash bilan bel uchun ideal.",
     text: "Ortopedik xususiyatlarga ega bo‘lib, bel va orqa og‘riqlarini kamaytiradi.",
     textes: "Tana tuzilishiga mos qo‘llab-quvvatlash.",
-    size: "Twin - 38”W x 75”L x 14”H"
+    size: "Twin - 38”W x 75”L x 14”H",
+    additional1: "Bel va umurtqa uchun maxsus moslashtirilgan qatlamlar mavjud.",
+    additional2: "Matras sirt yuzasi allergiyaga qarshi material bilan qoplangan."
   },
   {
-    id: 5,
+    id: 28,
     title: "Luxury Plush",
     price: "$1349",
     img1: img1,
     img2: img2,
     img3: img3,
+    img4: img4,
+    img5: img5,
     label: "Maksimal yumshoqlik va nafislik.",
     text: "Super-yumshoq qatlamlar bilan hashamatli his beradi.",
     textes: "Mehmonxona darajasidagi qulaylik.",
-    size: "Twin - 38”W x 75”L x 14”H"
+    size: "Twin - 38”W x 75”L x 14”H",
+    additional1: "Har bir qatlam optimal bosimni taqsimlashga mo‘ljallangan.",
+    additional2: "Sovutish texnologiyasi bilan yozgi uyquni yoqimli qiladi."
   },
   {
-    id: 6,
+    id: 29,
     title: "Cooling Gel",
     price: "$1099",
     img1: img1,
     img2: img2,
     img3: img3,
+    img4: img4,
+    img5: img5,
     label: "Sovutuvchi texnologiya bilan yozgi uyqu uchun ideal.",
     text: "Haroratni nazorat qilib, ortiqcha issiqlikni kamaytiradi.",
     textes: "Harorat nazorati bilan tetik uyg‘oning.",
-    size: "Twin - 38”W x 75”L x 14”H"
+    size: "Twin - 38”W x 75”L x 14”H",
+    additional1: "Jel qatlami namlikni yutadi va havo aylanishini yaxshilaydi.",
+    additional2: "Tungi tinch uyqu uchun ortiqcha issiqlikni samarali yutadi."
   },
   {
-    id: 7,
+    id: 30,
     title: "Hybrid Comfort",
     price: "$1249",
     img1: img1,
     img2: img2,
     img3: img3,
+    img4: img4,
+    img5: img5,
     label: "Ikki qatlamli texnologiya bilan qo‘llab-quvvatlash.",
     text: "Memory foam va bahor buloqlari kombinatsiyasi.",
     textes: "Mukammal balans va yostiq qo‘llab-quvvatlash.",
-    size: "Twin - 38”W x 75”L x 14”H"
+    size: "Twin - 38”W x 75”L x 14”H",
+    additional1: "Elastik bahorlar harakatni minimallashtiradi.",
+    additional2: "Memory foam qatlami tanaga moslashuvchanlikni oshiradi."
   },
   {
-    id: 8,
+    id: 31,
     title: "Eco-Friendly Bamboo",
     price: "$949",
     img1: img1,
     img2: img2,
     img3: img3,
+    img4: img4,
+    img5: img5,
     label: "Tabiiy bambuk tolalaridan tayyorlangan.",
     text: "Antibakterial va allergiyaga mos matras.",
     textes: "Sog‘lom va ekologik toza uyqu.",
-    size: "Twin - 38”W x 75”L x 14”H"
+    size: "Twin - 38”W x 75”L x 14”H",
+    additional1: "Tabiiy havo aylanishi bilan salqin his qildiradi.",
+    additional2: "Bambuk material allergik reaktsiyalarni kamaytiradi."
   },
   {
-    id: 9,
+    id: 32,
     title: "Aloe Vera Infused",
     price: "$999",
     img1: img1,
     img2: img2,
     img3: img3,
+    img4: img4,
+    img5: img5,
     label: "Aloe Vera ekstrakti bilan qulaylik.",
     text: "Tabiiy shifobaxsh xususiyatlarga ega material.",
     textes: "Sog‘lom uyqu uchun Aloe Vera bilan maxsus matras.",
-    size: "Twin - 38”W x 75”L x 14”H"
+    size: "Twin - 38”W x 75”L x 14”H",
+    additional1: "Matras ustidagi Aloe Vera qatlami terini yumshatadi.",
+    additional2: "Tabiiy materiallar salomatlik va qulaylikni oshiradi."
   }
 ];

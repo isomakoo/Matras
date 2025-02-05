@@ -57,20 +57,24 @@ function Detail() {
           </b>
           <hr />
           <p className="detailse-textes">
-            <LiaFlagUsaSolid size={30} color="red" /> Made in USA
+            <LiaFlagUsaSolid size={30} color="black" /> Made in USA
           </p>
           <p className="detailse-textes">
-            <FaShieldAlt size={30} color="green" /> Garantiya Shartnomasi
+            <FaShieldAlt size={30} color="black" /> Garantiya Shartnomasi
           </p>
           <p className="detailse-textes">
-            <FaTruck size={30} color="blue" /> Toshkent bo'ylab 3-7 kun ichida
+            <FaTruck size={30} color="black" /> Toshkent bo'ylab 3-7 kun ichida
             yetkazib beramiz
           </p>
-
+          <p className="detail-texti">{product.additional1}</p>
           <p className="detail-text">{product.label}</p>
           <ul>
             <li>
               <p className="details-list-text">{product.text}</p>
+             
+            </li>
+            <li>
+              <p className="details-list-text">{product.additional2}</p>
             </li>
             <li>
               <p className="details-list-text">{product.textes}</p>
@@ -93,6 +97,16 @@ function Detail() {
             alt={`${product.title} img3`}
             className="details-img3"
           />
+           <img
+            src={product.img4}
+            alt={`${product.title} img2`}
+            className="details-img2"
+          />
+          <img
+            src={product.img5}
+            alt={`${product.title} img3`}
+            className="details-img3"
+          />
         </div>
       </div>
 
@@ -112,13 +126,12 @@ function Detail() {
               modules={[Navigation]}
               className="related-swiper"
             >
-              {filteredProducts.map((item, index) => (
-  <SwiperSlide key={item.id || index}>
-    {console.log(item.price)} {/* Konsolda qiymatni tekshirib ko'ring */}
+              {filteredProducts.map((item) => (
+  <SwiperSlide key={item.id}>
     <div
       className="section-navbares-list"
       style={{
-        background: `linear-gradient(180deg, rgba(2, 3, 27, 0) 0%, #041444 100%), url(${product.img1})`,
+        background: `linear-gradient(180deg, rgba(2, 3, 27, 0) 0%, #041444 100%), url(${item.img1})`,
         backgroundSize: "cover",
         backgroundPosition: "top center",
         backgroundRepeat: "no-repeat",
@@ -138,10 +151,11 @@ function Detail() {
       >
         Batafsil
       </button>
-      <p className="section-product-siz">{product.size}</p>
+      <p className="section-product-siz">{item.size}</p>
     </div>
   </SwiperSlide>
 ))}
+
 
               
             </Swiper>
