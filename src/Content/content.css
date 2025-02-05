@@ -69,17 +69,12 @@ margin-left: 50px;
   
   .custom-swiper-button-preve,
   .custom-swiper-button-nexte {
-    background-color: #727272;
-    color: white;
+    background-color: white;
+    color: rgb(5, 5, 5);
     padding: 10px 15px;
     border-radius: 15px;
     cursor: pointer;
     font-size: 20px;
-  }
-  
-  .custom-swiper-button-preve:hover,
-  .custom-swiper-button-nexte:hover {
-    background-color: #0056b3;
   }
   .overlay {
     display: block;
@@ -89,7 +84,7 @@ margin-left: 50px;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(14, 33, 99, 0.85);
+    background: rgba(14, 33, 99, 0.85) !important;
 
   }
   

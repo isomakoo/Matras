@@ -17,8 +17,8 @@ function Content() {
           spaceBetween={60}
           slidesPerView={3}
           navigation={{
-            nextEl: ".custom-swiper-button-next",
-            prevEl: ".custom-swiper-button-prev",
+            nextEl: ".custom-swiper-button-nexte",
+            prevEl: ".custom-swiper-button-preve",
           }}
           modules={[Navigation]}
           className="related-swiper"
@@ -50,8 +50,8 @@ function Content() {
         </Swiper>
         
         <div className="custom-swiper-buttonses">
-          <div className="custom-swiper-button-prev">❮</div>
-          <div className="custom-swiper-button-next">❯</div>
+          <div className="custom-swiper-button-preve">❮</div>
+          <div className="custom-swiper-button-nexte">❯</div>
         </div>
       </div>
     </div>

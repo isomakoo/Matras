@@ -21,8 +21,8 @@
   justify-content: space-between;
   align-items: center;
   list-style: none;
-  width: 556px;
-  height: 27px;
+  width: 641px;
+  height: 33px;
   top: 18px;
   left: 493px;
 }
@@ -37,10 +37,24 @@
   text-decoration-skip-ink: none;
   color: rgba(14, 33, 99, 1);
 
+    position: relative; /* Linkning pozitsiyasini o‘zgartirish */
+    display: inline-block; /* Block-level elementga o‘xshab ishlash uchun */
 
 }
-.header-link:hover{
-color: brown;
+.header-link::after {
+  content: ""; /* Yangi element yaratish */
+  position: absolute; /* Link ichida joylashishi uchun */
+  bottom: 0; /* Tagidan joylashadi */
+  left: 0; /* Chapdan boshlanadi */
+  width: 0; /* Boshlang‘ich holatda chiziq uzunligi 0 */
+  height: 2px; /* Chiziqning balandligi */
+  background-color: #3e3e3e; /* Chiziq rangi */
+  transition: width 0.5s ease, left 0.3s ease; /* Chiziqning kengligi va o‘ng tomonga siljishini sekinlashtirish */
+}
+
+.header-link:hover::after {
+  width: 100%; /* Hover bo‘lganda chiziq kengligi butun link kengligi bo‘ylab tortiladi */
+  left: 0; /* Chapdan boshlanishi */
 }
 .header-select{
   width: 50px;
@@ -173,10 +187,10 @@ color: brown;
     padding: 0;
     flex-wrap:wrap;
     margin-left: 0 !important;
-    width: 470px;
+    width: 500px;
   }
   .header-link{
-    width: 75px !important;
+    width: 100px  !important;
     display: block;
     font-size: 14px;
   }
@@ -200,9 +214,10 @@ color: brown;
     height: auto;
   }
   .header-list{
-    width: 50%;
+    width: 60%;
   }
   .header-link{
+    width: 85px !important;
     font-size: 12px;
   }
 }

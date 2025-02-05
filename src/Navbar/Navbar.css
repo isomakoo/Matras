@@ -9,7 +9,7 @@
   font-weight: 700;
 }
 .Navbar {
-  background-image: url("../assets/Group%202%20(1).png"); /* URL ichida maxsus belgilarni qochirish */
+  background-image: url("../assets/welcomePage.png"); /* URL ichida maxsus belgilarni qochirish */
   background-size: cover; /* Tasvirni konteynerga moslash */
   background-position: center; /* Tasvirni markazda joylash */
   background-repeat: no-repeat; /* Takrorlanmasligi uchun */

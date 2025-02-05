@@ -19,9 +19,7 @@
   margin: 0 auto;
 }
 .footer-hero {
-  display: flex;
-  justify-content: space-between;
-  width: 606px;
+  width: 306px;
   height: 259px;
   gap: 24px;
   opacity: 0px;
@@ -48,8 +46,11 @@ right: 40px;
   display: block;
     font-family: Battambang;
     font-size: 20px;
+    height: 32px !important;
+    gap: 0px;
+    opacity: 0px;    
     font-weight: 400;
-    line-height: 36.13px;
+    line-height: 28.13px;
     text-align: right;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
@@ -83,9 +84,7 @@ left: 30px;
         text-decoration: none;
         list-style: none;
     } 
-    .footer-link-text:hover{
-      color: chartreuse;
-    }  
+
     .footer-listes-link{
       width: 101px;
       margin-bottom: 20px !important;
@@ -102,6 +101,13 @@ left: 30px;
       text-decoration-skip-ink: none;
       color: rgba(255, 255, 255, 1);
             
+    }
+    .footer-logo{
+      width: 300px !important;
+      height:69px !important;
+      gap: 18px;
+      opacity: 0px;
+      
     }
     @media (max-width: 1300px) {
       .footer-container{

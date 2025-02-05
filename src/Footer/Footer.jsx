@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import logo4 from "../assets/Logo (5).png";
+import logo4 from "../assets/Frame 133.png";
 import west from "../assets/WestMatres (1).png";
 import phone from '../assets/phone.png';
 import telegram from '../assets/Telegram.png';
@@ -17,13 +17,11 @@ function Footer() {
       <div className="footer">
         <div className="footer-container">
           <div className="footer-hero">
-            <img src={logo4} alt="" className="footer-logo" />
-            <div className="footer-navbar">
-              <img src={west} alt="logo" className="footer-logos" />
+            <img src={logo4} alt="" className="footer-logo" /> 
               <p className="footer-navbar-text">
                 {t("footer_description")}
               </p>
-            </div>
+           
           </div>
           <ul className="footer-listes">
             <li className="footer-listes-navbar">

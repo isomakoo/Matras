@@ -1,33 +1,33 @@
 .contacther-container {
-  width: 1152px;
-  padding: 0;
+  width: 984px;
+  height: 642px;
   position: relative;
-  margin: 0 auto;
-  height: 678px;
+  top: 80px;
+  gap: 64px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 auto;
+  opacity: 0px;  
 }
 .contact-img {
-    margin-top:  50px;
   display: block;
   width: 486px;
-  height: 518px;
+  height: 508px;
 }
 .contact-form {
   width: 588px;
-  height: 528px;
+  height: 518px;
   gap: 24px;
 }
 .contact-inp {
   font-family: Battambang;
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 300;
-  line-height: 36.13px;
-  margin-bottom: 20px;
+  line-height: 24px;
   text-align: left;
   text-underline-position: from-font;
-  text-decoration-skip-ink: none;
+  text-decoration-skip-ink: none;  
   color: rgba(108, 108, 108, 1);
   width: 570px;
   height: 62px;
@@ -36,16 +36,18 @@
   border: transparent;
   gap: 10px;
   margin-top: 5px !important;
+margin-bottom: 15px !important;
 }
 .contact-inpus {
-  font-family: Battambang;
-  font-size: 20px;
-  min-height: 62px;
-  font-weight: 300;
-  line-height: 36.13px;
-  text-align: left;
+font-family: Battambang;
+font-size: 14px;
+font-weight: 300;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
   margin-top: 5px !important;
-  margin-top: 20px;
+  margin-bottom: 15px !important;
   border: transparent;
   background: rgba(232, 236, 248, 1);
   text-underline-position: from-font;
@@ -59,12 +61,12 @@
 }
 .contact-label {
   font-family: Battambang;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
-  line-height: 43.36px;
+  line-height: 32px;
   text-align: left;
   text-underline-position: from-font;
-  text-decoration-skip-ink: none;
+  text-decoration-skip-ink: none;  
   color: rgba(14, 33, 99, 1);
 }
 .contact-btn {
@@ -98,8 +100,10 @@
   text-align: center;
 }
 .contactsection-list{
-  width: 1200px;
-  height: 710px;
+  width: 984px;
+  height: 520px;
+  gap: 106px;
+  opacity: 0px;  
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -107,33 +111,43 @@
   opacity: 0px;
     
 }
-.contactsection-text{
-  width: 285px;
-  height: 43px;
-  gap: 0px;
+.contactsection-navbar{
+  width: 408px;
+  height: 434px;
+  gap: 24px;
   opacity: 0px;
+  
+}
+.contactsection-text{
+  width: 305px;
+  height: 43px;
+  margin-bottom: 10px !important;
+  margin-top: 20px !important;
   color: rgba(0, 0, 0, 1);  
-font-family: Battambang;
-font-size: 22px;
-font-weight: 400;
-line-height: 43.36px;
+  font-family: Battambang;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 43.36px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  
+
+}
+.contactsection-link{
+  width: 408px;
+height: 50px;
+text-decoration: none;
+gap: 0px;
+opacity: 0px;
+font-family: Lexend Deca;
+font-size: 20px;
+font-weight: 200;
+line-height: 25px;
 text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
 
-}
-.contactsection-link{
-  width: 405px !important;
-  height: 25px;
- display: block;
-  font-family: Lexend Deca;
-  font-size: 20px;
-  font-weight: 200;
-  line-height: 25px;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-  text-decoration: none; 
   color: rgba(0, 0, 0, 1);
   
 }
@@ -151,8 +165,8 @@ text-decoration-skip-ink: none;
   
 }
 .contactsection-kart{
-  width: 600px;
-  height: 450px;
+  width: 470px;
+  height: 470px;
 }
 @media (max-width: 1200px) {
   .contactsection{

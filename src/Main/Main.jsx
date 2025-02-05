@@ -1,6 +1,6 @@
 import React from "react";
 import "./Main.css";
-import matras from "../assets/galery.png";
+import matras from "../assets/galery (3).png";
 import { useTranslation } from "react-i18next";  // Importing useTranslation hook
 
 function Main() {

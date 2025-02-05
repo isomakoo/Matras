@@ -114,7 +114,7 @@
   display: block;
   position: relative;
   top: 40px;
-  left: 26px;
+  left: 16px;
   gap: 0px;
   opacity: 0px;
   font-family: Lexend Deca;
@@ -166,27 +166,28 @@ opacity: 0px;
   color: #ffffff;
 }
 .section-navbares-list-btn {
-  width: 100px;
-  height: 22px;
-  position: relative;
-  top: 53px;
-  margin-left: 10px;
+  width: 103px;
+  height: 25px;
+  padding: 4px 8px 4px 8px;
+  gap: 10px;
   font-family: Lexend Deca;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 14.4px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16.8px;
   letter-spacing: 0.04em;
-  text-align: center;
+  text-align: left;
   text-underline-position: from-font;
-  padding: 4px 8px;
-  border: 1px solid #ffffffcc;
-  opacity: 0.9; /* Shaffoflikni sozlash */
-  color: rgba(255, 255, 255, 0.8); /* Matn rangi oq */
+  text-decoration-skip-ink: none;
+  color: rgba(255, 255, 255, 0.8);  
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  position: relative;
+  top: 55px;
+  left: 0px;
+  margin-left: 10px;
+  background: rgba(19, 19, 19, 0.16);
+  border: 1px solid rgba(255, 255, 255, 0.8);  
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url("../assets/matras5.png"); /* Rasm va gradient */
-  background-size: cover; /* Rasmni butun maydonga sig'dirish */
-  background-position: center; /* Rasmni markazga joylashtirish */
-  border-radius: 4px; /* Tugmani burchaklarini yumaloqlash */
 }
 .section-navbares-list-btnes {
   width: 136px;
