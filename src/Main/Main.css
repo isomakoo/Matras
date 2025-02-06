@@ -152,7 +152,7 @@ text-decoration-skip-ink: none;
     }
     .main-titles{
         margin: 0 auto;
-        height: 29px;   
+        height: auto;   
      font-size: 16px !important;
      line-height: 16px !important;
     }

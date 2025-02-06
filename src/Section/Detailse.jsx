@@ -125,7 +125,7 @@ function Detail() {
       slidesPerView: 3, // 800pxdan kichik ekranlarda 2 slayd
     },
     800: {
-      slidesPerView: 3, // 800pxdan kichik ekranlarda 2 slayd
+      slidesPerView: 2, // 800pxdan kichik ekranlarda 2 slayd
     },
     500: {
       slidesPerView: 1, // 800pxdan kichik ekranlarda 2 slayd
