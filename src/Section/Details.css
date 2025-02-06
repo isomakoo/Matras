@@ -502,6 +502,18 @@
    display: flex;
    justify-content: space-between;
   }
+  .details-images{
+    height: 610px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .details-img2, .details-img3{
+    height: 150px;
+    width: 49%;
+  }
+  .details-img1{
+    height: 250px;
+  }
   .detailse-label-text{
    font-size: 30px;
   }
