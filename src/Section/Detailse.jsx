@@ -121,16 +121,16 @@ function Detail() {
   spaceBetween={20}
   slidesPerView={3}
   breakpoints={{
+    300: {
+      slidesPerView: 1, // 500pxdan kichik ekranlarda 1 slayd
+    },
+    600: {
+      slidesPerView: 2, // 500pxdan katta va 800pxdan kichik ekranlarda 2 slayd
+    },
     1000: {
-      slidesPerView: 3, // 800pxdan kichik ekranlarda 2 slayd
+      slidesPerView: 3, // 800pxdan katta ekranlarda 3 slayd
     },
-    800: {
-      slidesPerView: 2, // 800pxdan kichik ekranlarda 2 slayd
-    },
-    500: {
-      slidesPerView: 1, // 800pxdan kichik ekranlarda 2 slayd
-    },
-  }}  
+  }}
   navigation={{
     nextEl: ".custom-swiper-button-next",
     prevEl: ".custom-swiper-button-prev",
@@ -139,7 +139,7 @@ function Detail() {
   className="related-swiper"
 >
   {filteredProducts.map((item) => (
-    <SwiperSlide key={item.id} >
+    <SwiperSlide key={item.id} className="related-swiperslide">
       <div
         className="section-navbares-list"
         style={{
@@ -168,6 +168,7 @@ function Detail() {
     </SwiperSlide>
   ))}
 </Swiper>
+
 
 <div className="custom-swiper-buttons">
   <div className="custom-swiper-button-prev">❮</div>

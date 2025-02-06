@@ -179,6 +179,10 @@
   .content-container {
     width: 500px;
   }
+  .related-swiperes{
+    display: flex;
+    justify-content: center;
+  }
   .content-navbar{
     width: 90%;
     display: flex;

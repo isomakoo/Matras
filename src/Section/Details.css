@@ -395,6 +395,17 @@
    .related-title{
     font-size: 90px;
    }
+   .related-swiperslide{
+    position: relative;
+    top: 40px;
+    display: flex;
+    justify-content: center;
+    height: 300px !important;
+}
+.related-swiper{
+ padding-bottom:0 !important;
+ height: 300px !important;
+}
 }
 @media (max-width: 1000px) {
   .details-container{
@@ -431,6 +442,8 @@
     width: 49%;
   }
   .related-title{
+    position: relative;
+    top: 40px;
     font-size: 80PX;
   }
 .lated-products{
@@ -532,6 +545,13 @@
   }
   .related-products{
     width: 300px;
+   }
+   .related-swiperslide{
+       height: 300px !important;
+   }
+   .related-swiper{
+    padding-bottom:0 !important;
+    height: 300px !important;
    }
 
 }@media (max-width: 300px) {

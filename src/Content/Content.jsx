@@ -21,7 +21,7 @@ function Content() {
             prevEl: ".custom-swiper-button-preve",
           }}
           modules={[Navigation]}
-          className="related-swiper"
+          className="related-swiperes"
           breakpoints={{
             1300: { slidesPerView: 3 },
             1000: { slidesPerView: 3 }, // 1000px dan yuqori
