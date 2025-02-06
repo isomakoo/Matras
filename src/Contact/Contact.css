@@ -285,14 +285,14 @@ text-decoration-skip-ink: none;
   }
   .contactsection-link{
     width: 90%;
-    text-align: center;
+    text-align: left;
+    margin-left: 0 !important;
     margin: 0 auto;
     margin-bottom: 20px;
   }
   .contactsection-text{
     width: 90%;
-    margin-left: 10px;
-    text-align: center;
+    text-align: left;
   }
   .contactsection-navbar{
     width: 90%;

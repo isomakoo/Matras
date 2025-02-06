@@ -110,60 +110,67 @@ function Detail() {
         </div>
       </div>
 
-      {/* **O'xshash mahsulotlar bo'limi** */}
+     
       {filteredProducts.length > 0 && (
         <div className="related-products">
           <h2 className="related-title">O'xshash mahsulotlar</h2>
           <div className="swiper-container">
-            <Swiper
-              loop={true}
-              spaceBetween={20}
-              slidesPerView={3}
-              navigation={{
-                nextEl: ".custom-swiper-button-next",
-                prevEl: ".custom-swiper-button-prev",
-              }}
-              modules={[Navigation]}
-              className="related-swiper"
-            >
-              {filteredProducts.map((item) => (
-  <SwiperSlide key={item.id}>
-    <div
-      className="section-navbares-list"
-      style={{
-        background: `linear-gradient(180deg, rgba(2, 3, 27, 0) 0%, #041444 100%), url(${item.img1})`,
-        backgroundSize: "cover",
-        backgroundPosition: "top center",
-        backgroundRepeat: "no-repeat",
-        backgroundBlendMode: "multiply", // Gradient va rasmni uyg‘unlashtirish
-      }}
-    >
-      <p className="section-navbares-list-title">{item.title}</p>
-      {item.price && (
-        <b className="section-navbares-list-text">{item.price}</b>
-      )}
-      <br />
-      <button className="section-navbares-list-btn">Xususiyat 1</button>
-      <button className="section-navbares-list-btn">Xususiyat 2</button>
-      <button
-        className="section-navbares-list-btnes"
-        onClick={() => (window.location.href = `/details/${item.id}`)}
+          <Swiper
+  loop={true}
+  height={300}
+  spaceBetween={20}
+  slidesPerView={3}
+  breakpoints={{
+    1000: {
+      slidesPerView: 3, // 800pxdan kichik ekranlarda 2 slayd
+    },
+    500: {
+      slidesPerView: 1, // 800pxdan kichik ekranlarda 2 slayd
+    },
+  }}  
+  navigation={{
+    nextEl: ".custom-swiper-button-next",
+    prevEl: ".custom-swiper-button-prev",
+  }}
+  modules={[Navigation]}
+  className="related-swiper"
+>
+  {filteredProducts.map((item) => (
+    <SwiperSlide key={item.id} >
+      <div
+        className="section-navbares-list"
+        style={{
+          background: `linear-gradient(180deg, rgba(2, 3, 27, 0) 0%, #041444 100%), url(${item.img1})`,
+          backgroundSize: "cover",
+          backgroundPosition: "top center",
+          backgroundRepeat: "no-repeat",
+          backgroundBlendMode: "multiply",
+        }}
       >
-        Batafsil
-      </button>
-      <p className="section-product-siz">{item.size}</p>
-    </div>
-  </SwiperSlide>
-))}
+        <p className="section-navbares-list-title">{item.title}</p>
+        {item.price && (
+          <b className="section-navbares-list-text">{item.price}</b>
+        )}
+        <br />
+        <button className="section-navbares-list-btn">Xususiyat 1</button>
+        <button className="section-navbares-list-btn">Xususiyat 2</button>
+        <button
+          className="section-navbares-list-btnes"
+          onClick={() => (window.location.href = `/details/${item.id}`)}
+        >
+          Batafsil
+        </button>
+        <p className="section-product-siz">{item.size}</p>
+      </div>
+    </SwiperSlide>
+  ))}
+</Swiper>
 
+<div className="custom-swiper-buttons">
+  <div className="custom-swiper-button-prev">❮</div>
+  <div className="custom-swiper-button-next">❯</div>
+</div>
 
-              
-            </Swiper>
-
-            <div className="custom-swiper-buttons">
-              <div className="custom-swiper-button-prev">❮</div>
-              <div className="custom-swiper-button-next">❯</div>
-            </div>
           </div>
         </div>
       )}

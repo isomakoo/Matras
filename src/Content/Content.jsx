@@ -22,16 +22,22 @@ function Content() {
           }}
           modules={[Navigation]}
           className="related-swiper"
+          breakpoints={{
+            1300: { slidesPerView: 3 },
+            1000: { slidesPerView: 3 }, // 1000px dan yuqori
+            600: { slidesPerView: 2 },  // 500px dan yuqori
+            0: { slidesPerView: 1 },    // 500px dan past
+          }}
         >
           {mijozfikri.map((mijoz) => (
-            <SwiperSlide 
-              key={mijoz.id} 
+            <SwiperSlide
+              key={mijoz.id}
               style={{
                 position: "relative",
                 width: "320px",
                 height: "500px",
                 backgroundImage: `url(${images3})`,
-                background: "rgba(14, 33, 99, 0.85)", 
+                background: "rgba(14, 33, 99, 0.85)",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
               }}
@@ -49,7 +55,7 @@ function Content() {
             </SwiperSlide>
           ))}
         </Swiper>
-        
+
         <div className="custom-swiper-buttonses">
           <div className="custom-swiper-button-preve">❮</div>
           <div className="custom-swiper-button-nexte">❯</div>

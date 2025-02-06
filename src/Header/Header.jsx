@@ -8,7 +8,7 @@ import uz from "../assets/language.png";
 import ru from "../assets/language.png";
 import eng from "../assets/language.png";
 import btn from '../assets/Vector.png'
-import logos from '../assets/Logo (7).png'
+import logos from '../assets/Logo (1).svg'
 
 function Header() {
   const { t, i18n } = useTranslation();

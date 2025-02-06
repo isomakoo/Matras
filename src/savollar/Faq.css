@@ -6,7 +6,7 @@
 }
 
 .faq-title {
-  height: 72px; 
+  height: auto; 
   font-family: Battambang;
   font-size: 40px;
   font-weight: 400;
@@ -100,6 +100,9 @@
   .faq-container{
     width: 700px;
   }
+  .faq-title{
+    line-height: 50px;
+  }
 }
 @media (max-width: 700px) {
   .faq-container{
@@ -117,7 +120,12 @@
 }
 @media (max-width: 500px) {
   .faq-container{
+    padding-left: 0 !important;
     width: 400px;
+  }
+  .faq-title{
+    font-size: 30px;
+    line-height: 40px;
   }
 }
 @media (max-width: 400px) {

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import logo4 from "../assets/Frame 133.png";
+import logo4 from "../assets/logo&text (1).svg";
 import west from "../assets/WestMatres (1).png";
 import phone from '../assets/phone.png';
 import telegram from '../assets/Telegram.png';
@@ -54,7 +54,7 @@ function Footer() {
             <span className="footer-linkeses">
               <nav className="footer-nav">
                 <a href="tel:+998783337979" className="footer-link-nav">+998 78 333 79 79</a> <br />
-                <a href="tel:+998783337979" className="footer-link-nav">+998 78 840 79 79</a>
+                <a href="tel:+998788407979" className="footer-link-nav">+998 78 840 79 79</a>
               </nav>
               <img src={phone} alt="" className="footer-img" />
             </span> <br />
@@ -66,6 +66,18 @@ function Footer() {
             </a> <br />
             <a href="mailto:@westmatres.com" className="footer-link">
               support@westmatres.com <img src={email} alt="email" className="footer-images" />
+            </a>
+          </div>
+          <div className="footer-linkes-images">
+            <a href="tel:+998783337979"  className="footer-linkes-images-link"><img src={phone} alt="" className="footer-img" /></a>
+          <a href="https://t.me/westmatres_uz" className="footer-linkes-images-link">
+               <img src={instagram} alt="instagram" className='footer-img' />
+            </a> 
+            <a href="https://t.me/westmatres_uz" className="footer-linkes-images-link">
+              <img src={telegram} alt="telegram" className='footer-img' />
+            </a> 
+            <a href="mailto:@westmatres.com" className="footer-linkes-images-link">
+              <img src={email} alt="email" className="footer-img" />
             </a>
           </div>
         </div>

@@ -501,29 +501,32 @@ height: 322px;
     width: 700px;
   }
   .aboutsidebar-navbar{
-    height: 300px;
+    height: auto;
   }
   .aboutsidebar-navbar-title{
     font-size: 76px;
   }
   .aboutsidebar-navbar-text{
     font-size: 16px;
+    text-align: left;
     line-height: 26px;
   }
   .aboutmain-container{
     width: 90%;
+    height: 350px;
     margin: 0 auto;
   }
   .aboutmain-list{
     width: 95%;
     margin: 0 auto;
     height: auto;
+    top: 0;
     flex-direction: column;
     text-align: center;
    }
    .aboutmain-listes-text{
     width: 90%;
-    text-align: center;
+    text-align: left;
     height: auto;
     line-height: 28px;
     margin: 0 auto;
@@ -541,30 +544,33 @@ height: 322px;
    }
    .aboutmain-img{
     width: 70%;
+    display: none;
     margin: 0 auto;
    }
   .Aboutheader-title {
     width: 90% ;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
   }
   .Aboutheader-textes{
     width: 90%;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
   }
   .aboutheader-img{
     width: 70%;
     height: 250px;
+    display: none;
   }
   .Aboutheader-btnes{
-    margin: 0 auto;
+    margin-left: 15px;
+    width: auto;
     margin-top: 20px;
   }
   .Aboutheader-text{
     width: 90%;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
   }
  
 }
@@ -577,6 +583,9 @@ height: 322px;
    }
    .aboutsidebar-navbar{
     width: 600px;
+  }
+  .aboutmain-images{
+    height: 396px !important;
   }
 }
 @media (max-width: 600px) {
@@ -602,11 +611,11 @@ height: 322px;
     line-height: 66px;
   }
   .aboutsidebar-navbar-title{
-    font-size: 66px;
-    line-height: 76px;
+    font-size: 36px;
+    line-height: 46px;
   }
   .aboutsidebar-navbar{
-    height: 380px;
+    height: 300px;
   }
   .aboutsidebar-navbar-text{
     font-size: 14px;
@@ -630,11 +639,13 @@ height: 322px;
     width: 300px;
    }
   .Aboutheader-title{
+    text-align: left;
     font-size: 60px;
     height: 90px;
     line-height: 80px;
   }
   .Aboutheader-text{
+    text-align: left;
     height: 90px;
     font-size: 20px;
     line-height: 30px;

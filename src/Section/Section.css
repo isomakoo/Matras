@@ -295,21 +295,472 @@ border: none;
   gap: 20px;
   grid-template-columns: repeat(3, 1fr); /* Default - 3 ta ustun */
 }
-
-/* 700px va undan kichik ekranlar uchun - 2 qator, 4 ustun */
-@media (max-width: 700px) {
+@media (max-width: 1200px) {
+  .section-container{
+    width: 1100px;
+    height: auto;
+  }
+  .section-btn-list{
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    position: relative;
+    left: 0;
+    align-items: center;
+  }
+  .section-btnes{
+    width: 30%;
+    margin: 0 !important;
+    height: auto;
+  }
   .section-navbares {
-    grid-template-columns: repeat(2, 1fr); /* 4 ustun */
-    grid-template-rows: repeat(6, auto); /* 2 qator */
+    grid-template-columns: repeat(3, 1fr); /* 2 ustun */
+    width: 1100px;
+    height: auto;
+    margin: 0 !important;
+    position: relative;
+    padding-left: 0 !important;
+  }
+  .pagination{
+    position: relative;
+    top: 90px;
   }
 }
+@media (max-width: 1100px) {
+  .section-container{
+    width: 1000px;
+    height: auto;
+  }
+  .section-btn-list{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    position: relative;
+    left: 0;
+    align-items: center;
+  }
+  .section-btnes{
+    width: 30%;
+    margin: 0 !important;
+    height: auto;
+  }
+  .section-navbares {
+    grid-template-columns: repeat(3, 1fr); /* 2 ustun */
+    width: 1000px;
+    height: auto;
+    margin: 0 !important;
+    position: relative;
+    padding-left: 0 !important;
+  }
+  .pagination{
+    position: relative;
+    top: 90px;
+  }
+}
+@media (max-width: 1000px) {
+  .section-container{
+    width: 900px;
+    height: auto;
+  }
+  .section-btn-list{
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    position: relative;
+    left: 0;
+    align-items: center;
+  }
+  .section-btnes{
+    width: 30%;
+    margin: 0 !important;
+    height: auto;
+  }
+  .section-navbares {
+    grid-template-columns: repeat(2, 1fr); /* 2 ustun */
+    width: 900px;
+    height: auto;
+    margin: 0 !important;
+    position: relative;
+    padding-left: 0 !important;
+  }
+  .pagination{
+    position: relative;
+    top: 90px;
+  }
+}
+@media (max-width: 900px) {
+  .section-container{
+    width: 800px;
+    height: auto;
+  }
+  .section-btn-list{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    position: relative;
+    left: 0;
+    align-items: center;
+  }
+  .section-btnes{
+    width: 30%;
+    margin: 0 !important;
+    height: auto;
+  }
+  .section-navbares {
+    grid-template-columns: repeat(2, 1fr); /* 2 ustun */
+    width: 800px;
+    height: auto;
+    margin: 0 !important;
+    position: relative;
+    padding-left: 0 !important;
+  }
+  .pagination{
+    position: relative;
+    top: 90px;
+  }
+}
+@media (max-width: 800px) {
+  .section-container{
+    width: 700px;
+  }
+  .section-navbares {
+    grid-template-columns: repeat(1, 1fr); /* 4 ustun */
+    grid-template-rows: repeat(4, auto); /* 2 qator */
+    display: flex;
+    width: 700px;
+    justify-content: center;
+  }
+  .section-navbares-list-btn{
+    width: 80px;
+    top: 55px;
+    font-size: 10px;
+  }
+  .section-navbares-list-text{
+    position: relative;
+    width: 80px;
+    height: auto;
+    left: 210px;
+    font-size: 26px;
+  }
+  .section-navbares-list{
+    width: 48%;
+  }
+  .section-navbares-list-btnes{
+    padding: 0 !important;
+    width: 90px;
+    top: 60px;
+    height: 40px;
+  }
+  .section-product-siz{
+   top: 50px;
+  
+  }
+  .section-btn-list{
+    width: 700px;
+    position: relative;
+    left: 0;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .section-btnes{
+    width: 30%;
+    height: 50px;
+  }
+}
+/* 700px va undan kichik ekranlar uchun - 2 qator, 4 ustun */
+@media (max-width: 700px) {
+  .section-container{
+    width: 600px;
+  }
+  .section-navbares {
+    grid-template-columns: repeat(1, 1fr); /* 4 ustun */
+    grid-template-rows: repeat(4, auto); /* 2 qator */
+    display: flex;
+    width: 600px;
+    justify-content: center;
+  }
+  .section-navbares-list-btn{
+    width: 80px;
+    top: 55px;
+    font-size: 10px;
+  }
+  .section-navbares-list-text{
+    position: relative;
+    width: 80px;
+    height: auto;
+    left: 210px;
+    font-size: 26px;
+  }
+  .section-navbares-list{
+    width: 48%;
+  }
+  .section-navbares-list-btnes{
+    padding: 0 !important;
+    width: 90px;
+    top: 60px;
+    height: 40px;
+  }
+  .section-product-siz{
+   top: 50px;
+  
+  }
+  .section-btn-list{
+    width: 600px;
+    position: relative;
+    left: 0;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .section-btnes{
+    width: 30%;
+    height: 50px;
+  }
+}
+@media (max-width: 600px) {
+  .section-container{
+    width: 500px;
+    height: auto;
+  }
+  .pagination{
+    height: auto !important;
+    position: relative;
+    top: 90px;
+  }
+  .section-btn-list{
+    width: 100% !important;
+    margin: 0 auto;
+    position: relative;
+    left: 0px;
+    margin-left: 0;
+  }
+  .section-btnes{
+    margin-right: 10px !important;
+    margin: 0;
+    height: 50px !important;
+    font-size: 18px;
+    padding: 0 !important;
+   text-align: center;
+   margin-right: 30px;
+    width: 120px !important;
+  }
+  .section-navbares {
+    width: 500px;
+    grid-template-columns: 1fr; /* Faqat 1 ustun */
+    gap: 16px;
+    display: flex;
+    justify-content: center;
+    padding: 0 !important;
+    height: auto;
+  }
 
+  .section-navbares-list {
+    padding: 10px;
+    font-size: 14px;
+  }
+  .section-navbares-list{
+   width: 300px !important;
+  }
+  .section-navbares-list-title{
+    width: 150px !important;
+  }
+  .section-navbares-list-btn{
+    width: 78px !important;
+    font-size: 10px;
+  }
+  .section-navbares-list-btnes{
+    padding: 0 !important;
+    width: 100px;
+    margin: 0;
+    position: relative;
+    top: 60px;
+    left: 15px;
+    height: 40px;
+  }
+  .section-product-siz{
+    font-size: 12px;
+    width: 250px !important;
+    position: relative;
+    margin: 0;
+    top: 60px;
+  }
+  .section-navbares-list-text{
+    margin: 0 !important;
+    position: relative;
+    font-size: 24px;
+    left: 190px;
+    top: 95px;
+  }
+  .section-btn-list{
+    width: 300px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .section-btnes{
+    width: 30%;
+    height: 50px;
+  }
+}
+@media (max-width: 500px) {
+  .section-container{
+    width: 400px;
+    height: auto;
+  }
+  .pagination{
+    height: auto !important;
+    position: relative;
+    top: 90px;
+  }
+  .section-btn-list{
+    width: 100% !important;
+    margin: 0 auto;
+    position: relative;
+    left: 0px;
+    margin-left: 0;
+  }
+  .section-btnes{
+    margin-right: 10px !important;
+    margin: 0;
+    height: 50px !important;
+    font-size: 18px;
+    padding: 0 !important;
+   text-align: center;
+   margin-right: 30px;
+    width: 120px !important;
+  }
+  .section-navbares {
+    width: 400px;
+    grid-template-columns: 1fr; /* Faqat 1 ustun */
+    gap: 16px;
+    display: flex;
+    justify-content: center;
+    padding: 0 !important;
+    height: auto;
+  }
+
+  .section-navbares-list {
+    padding: 10px;
+    font-size: 14px;
+  }
+  .section-navbares-list{
+   width: 300px !important;
+  }
+  .section-navbares-list-title{
+    width: 150px !important;
+  }
+  .section-navbares-list-btn{
+    width: 78px !important;
+    font-size: 10px;
+  }
+  .section-navbares-list-btnes{
+    padding: 0 !important;
+    width: 100px;
+    margin: 0;
+    position: relative;
+    top: 60px;
+    left: 15px;
+    height: 40px;
+  }
+  .section-product-siz{
+    font-size: 12px;
+    width: 250px !important;
+    position: relative;
+    margin: 0;
+    top: 60px;
+  }
+  .section-navbares-list-text{
+    margin: 0 !important;
+    position: relative;
+    font-size: 24px;
+    left: 190px;
+    top: 95px;
+  }
+  .section-btn-list{
+    width: 300px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .section-btnes{
+    width: 30%;
+    height: 50px;
+  }
+}
 /* 400px va undan kichik ekranlar uchun - 1 qator, 8 ustun */
 @media (max-width: 400px) {
+  .section-container{
+    width: 300px;
+    height: auto;
+  }
+  .pagination{
+    height: auto !important;
+    position: relative;
+    top: 90px;
+  }
+  .section-btn-list{
+    width: 100% !important;
+    margin: 0 auto;
+    margin-left: 0;
+  }
+  .section-btnes{
+    margin-right: 10px !important;
+    margin: 0;
+    height: 50px !important;
+    font-size: 18px;
+    padding: 0 !important;
+   text-align: center;
+    width: 90px !important;
+  }
   .section-navbares {
-    grid-template-columns: repeat(8, 1fr); /* 8 ustun */
-    grid-template-rows: repeat(1, auto); /* 1 qator */
-    overflow-x: auto; /* Elementlar sig‘masa, gorizontal scroll qo‘shiladi */
-    white-space: nowrap;
+    width: 300px;
+    grid-template-columns: 1fr; /* Faqat 1 ustun */
+    gap: 16px;
+    padding: 0 !important;
+    height: auto;
+  }
+
+  .section-navbares-list {
+    padding: 10px;
+    font-size: 14px;
+  }
+  .section-navbares-list{
+   width: 300px !important;
+  }
+  .section-navbares-list-title{
+    width: 150px !important;
+  }
+  .section-navbares-list-btn{
+    width: 78px !important;
+    font-size: 10px;
+  }
+  .section-navbares-list-btnes{
+    padding: 0 !important;
+    width: 100px;
+    margin: 0;
+    position: relative;
+    top: 60px;
+    left: 15px;
+    height: 40px;
+  }
+  .section-product-siz{
+    font-size: 12px;
+    width: 250px !important;
+    position: relative;
+    margin: 0;
+    top: 60px;
+  }
+  .section-navbares-list-text{
+    margin: 0 !important;
+    position: relative;
+    font-size: 24px;
+    left: 190px;
+    top: 95px;
+  }
+  .section-btn-list{
+    width: 300px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .section-btnes{
+    width: 30%;
+    height: 50px;
   }
 }

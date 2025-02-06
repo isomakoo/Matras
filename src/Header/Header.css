@@ -95,11 +95,12 @@
 }
 
 .close-btn {
-  width: 28px !important;
+  width: 48px !important;
   height: 28px !important;
   position: relative;
-  top: -40px;
+  line-height: 24px;
   margin: 0;
+  top: -22px;
    color: rgba(14, 33, 99, 1);
   gap: 0px;
   opacity: 0px;  
@@ -136,14 +137,30 @@
   font-weight: 300;
   line-height: 27px;
   text-align: left;
-  text-decoration: none;
+  text-decoration: none !important;
   text-decoration-line: underline;
   text-decoration-style: solid;
   text-underline-offset: 9%;
   text-decoration-thickness: 4%;
   text-underline-position: from-font;
    color: rgba(14, 33, 99, 1);
+   display: inline-block;
   
+}
+.modal-list a::after {
+  content: ""; /* Yangi element yaratish */
+  position: absolute; /* Link ichida joylashishi uchun */
+  bottom: 0; /* Tagidan joylashadi */
+  left: 0; /* Chapdan boshlanadi */
+  width: 0; /* Boshlang‘ich holatda chiziq uzunligi 0 */
+  height: 2px; /* Chiziqning balandligi */
+  background-color: #3e3e3e; /* Chiziq rangi */
+  transition: width 0.5s ease, left 0.3s ease; /* Chiziqning kengligi va o‘ng tomonga siljishini sekinlashtirish */
+}
+
+.modal-link:hover::after {
+  width: 100%; /* Hover bo‘lganda chiziq kengligi butun link kengligi bo‘ylab tortiladi */
+  left: 0; /* Chapdan boshlanishi */
 }
 .language-dropdown img {
   margin-right: 8px;
