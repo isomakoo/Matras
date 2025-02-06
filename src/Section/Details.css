@@ -400,12 +400,6 @@
   .details-container{
     width: 900px;
   }
-  .swiper-wrapper{
-    height: auto !important;
-   }
-   .swiper-slide{
-    height: auto;
-   }
   .related-products{
     width: 900px;
    }
@@ -439,13 +433,7 @@
   .related-title{
     font-size: 80PX;
   }
-  .swiper-slide{
-    height: auto !important;
-  }
-  .swiper-wrapper{
-    height: 250px !important;
-  }
-  .related-products{
+.lated-products{
     width: 700px;
    }
 
