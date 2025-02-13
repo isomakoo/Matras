@@ -61,6 +61,7 @@ function Section() {
             </button>
           ))}
         </nav>
+        <div className="section-nvb">
 
         <ul className="section-navbares">
           {paginatedData.map((product) => (
@@ -100,6 +101,7 @@ function Section() {
               {i + 1}
             </button>
           ))}
+        </div>
         </div>
       </div>
     </div>

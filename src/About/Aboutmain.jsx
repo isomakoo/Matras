@@ -2,7 +2,7 @@ import React from "react";
 import "./About.css";
 import imagesabout from "../assets/matrasabout.png";
 import imagesaboutes from "../assets/aboutmainimg.png";
-import images11  from '../assets/aboutmainimg1.png';
+import images11  from '../assets/Galery (4).png';
 import { useTranslation } from "react-i18next";  // Importing useTranslation hook
 
 function Aboutmain() {

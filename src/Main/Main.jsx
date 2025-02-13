@@ -13,7 +13,7 @@ function Main() {
           <h1 className="main-title">{t("excellent_sleep")}</h1>  {/* Translated text */}
           <p className="main-titles">{t("comfort_responsibility")}</p>  {/* Translated text */}
           <p className="main-text">
-            {t("delivery_guarantee")} {t("ideal_sleep_matras")} {t("quality_guarantee")}
+            {t("delivery_guarantee")} 
           </p>
         </div>
         <img src={matras} alt="matras" width={"100%"} className="main-images" />

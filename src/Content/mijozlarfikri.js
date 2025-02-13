@@ -1,5 +1,5 @@
 import imges1 from "../assets/mijozimg1.png";
-import images2 from "../assets/yulduz.png";
+import images2 from "../assets/rating.svg";
 import images4 from '../assets/mijoz2.png'
 import images5 from '../assets/mijoz3.png'
 

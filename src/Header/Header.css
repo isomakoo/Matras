@@ -56,6 +56,16 @@
   width: 100%; /* Hover bo‘lganda chiziq kengligi butun link kengligi bo‘ylab tortiladi */
   left: 0; /* Chapdan boshlanishi */
 }
+.header-link.active::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #3e3e3e;
+}
+
 .header-select{
   width: 50px;
   height: 40px;

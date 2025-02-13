@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import logoabtt from '../assets/logoabt.png';
+import logoabtt from '../assets/Frame 144.svg';
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";  // Importing useTranslation hook
 

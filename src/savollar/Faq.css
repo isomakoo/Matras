@@ -27,6 +27,8 @@
 .faq-item {
   background: rgba(232, 236, 248, 1);
   padding: 10px;
+  padding-bottom: 0 !important;
+  padding-top: 15px !important;
   margin-bottom: 0;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);

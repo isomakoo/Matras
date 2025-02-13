@@ -5,7 +5,7 @@
 }
 .Main-container{
     width: 996px;
-    height: 231px;
+    height: 331px;
     margin: 0 auto;
     top: 1060px;
     left: 222px;
@@ -40,16 +40,15 @@ text-decoration-skip-ink: none;
 }
 .main-text{
     font-family: Battambang;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 23px;
-    text-align: center;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+font-weight: 300;
+font-size: 18px;
+line-height: 32.52px;
+letter-spacing: 0%;
+text-align: center;
     color: #0E2163;
 }
 .main-images{
-    margin-top: 150px;
+    margin: 0;
 }
 .main-section-title{  
     width: 100%;
@@ -149,6 +148,7 @@ text-decoration-skip-ink: none;
 @media (max-width: 500px) {
     .Main-container{
       width: 400px;
+      height: auto;
     }
     .main-titles{
         margin: 0 auto;
